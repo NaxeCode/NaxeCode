@@ -1,4 +1,4 @@
-### Hi there, I'm Aladdin Ali also known as NaxeCode :) 👋
+### Hi there, I'm Sirajaldeen Ali also known as NaxeCode :) 👋
 - 🔭 I’m currently working on Web apps for indie games!
 - ⚡ Fun fact: I love chips
 
