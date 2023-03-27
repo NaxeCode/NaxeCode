@@ -1,6 +1,6 @@
 ### Hi there, I'm Sirajaldeen Ali also known as NaxeCode :) 👋
-- 🔭 I’m currently working on Web apps for indie games!
-- ⚡ Fun fact: I love chips
+- 🔭 I’m currently working on Web apps!
+- ⚡ Fun fact: I very much enjoy potato chips
 
 <a href="https://github.com/NaxeCode">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=NaxeCode&layout=compact&theme=radical" />
