@@ -1,4 +1,4 @@
-### Hi there, I'm Sirajaldeen Ali also known as NaxeCode :) 👋
+### Hi there, I'm Sirajaldeen Ali also known as NaxeCode 👋
 - 🔭 I’m currently working on Web apps!
 - ⚡ Fun fact: I very much enjoy potato chips
 
