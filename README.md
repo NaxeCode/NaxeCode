@@ -1,5 +1,5 @@
 ### Hi there, I'm NaxeCode 👋
-- 🔭 I’m currently working on Web apps!
+- 🔭 I’m currently working on games!
 - ⚡ Fun fact: I very much enjoy potato chips
 
 <a href="https://github.com/NaxeCode">
