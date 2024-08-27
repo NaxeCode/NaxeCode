@@ -11,6 +11,15 @@
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark)](https://naxe.dev)
 
 <!--START_SECTION:waka-->
+
+```txt
+C#            9 hrs 18 mins   █████████████████████▒░░░   85.91 %
+Astro         59 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.14 %
+CSHTML        12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.92 %
+Other         11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.79 %
+JSON          3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
+```
+
 <!--END_SECTION:waka-->
 
 
