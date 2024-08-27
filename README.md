@@ -3,11 +3,6 @@
 - ⚡ Fun fact: I very much enjoy potato chips
 - 🔋 Checkout my site for more info: https://naxe.dev
 
-<a href="https://naxe.dev">
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=NaxeCode&layout=compact&theme=radical" />
-  
-</a>
-
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark)](https://naxe.dev)
 
 <!--START_SECTION:waka-->
