@@ -17,7 +17,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true # optional
           SECTION_NAME: waka # optional
-          CODE_LANG: csharp
+          CODE_LANG: C#
           TIME_RANGE: all_time
           SHOW_TIME: true
           SHOW_TOTAL: true
