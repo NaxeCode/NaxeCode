@@ -10,7 +10,8 @@
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark)](https://naxe.dev)
 
-
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 
 
