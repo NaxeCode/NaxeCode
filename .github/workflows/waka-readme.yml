@@ -20,4 +20,7 @@ jobs:
           CODE_LANG: csharp
           SHOW_TOTAL: true
           IGNORED_LANGUAGES: YAML JSON CSHTML XML
-          
+          SHOW_TIME: true # optional
+          TIME_RANGE: all_time # optional
+         
+  
