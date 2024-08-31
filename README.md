@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 05 April 2020 - To: 28 August 2024
+From: 05 April 2020 - To: 29 August 2024
 
-Total Time: 809 hrs 30 mins
+Total Time: 810 hrs 15 mins
 
-Haxe              488 hrs 31 mins ██████████████▒░░░░░░░░░░   57.06 %
-JavaScript        68 hrs 18 mins  ██░░░░░░░░░░░░░░░░░░░░░░░   07.98 %
-XML               60 hrs 35 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   07.08 %
+Haxe              488 hrs 31 mins ██████████████▒░░░░░░░░░░   57.01 %
+JavaScript        68 hrs 18 mins  ██░░░░░░░░░░░░░░░░░░░░░░░   07.97 %
+XML               60 hrs 35 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   07.07 %
+C#                46 hrs 48 mins  █▒░░░░░░░░░░░░░░░░░░░░░░░   05.46 %
 Other             46 hrs 41 mins  █▒░░░░░░░░░░░░░░░░░░░░░░░   05.45 %
-C#                46 hrs 5 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.38 %
 ```
 
 <!--END_SECTION:waka-->
