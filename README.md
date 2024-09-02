@@ -8,7 +8,7 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 05 April 2020 - To: 30 August 2024
+From: 05 April 2020 - To: 31 August 2024
 
 Total Time: 810 hrs 34 mins
 
