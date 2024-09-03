@@ -21,6 +21,3 @@ jobs:
           SHOW_TOTAL: true
           IGNORED_LANGUAGES: YAML JSON CSHTML XML
           SHOW_TIME: true # optional
-          TIME_RANGE: all_time # optional
-         
-  
