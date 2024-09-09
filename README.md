@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 31 August 2024 - To: 07 September 2024
+From: 01 September 2024 - To: 08 September 2024
 
 Total Time: 3 hrs 29 mins
 
-TypeScript   1 hr 39 mins    ███████████▓░░░░░░░░░░░░░   46.72 %
-Astro        1 hr 9 mins     ████████░░░░░░░░░░░░░░░░░   32.38 %
-Git          11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.59 %
-Bash         11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.51 %
-JSON         9 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.33 %
+TypeScript   1 hr 39 mins    ██████████▒░░░░░░░░░░░░░░   41.57 %
+Astro        43 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.95 %
+Other        31 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.98 %
+C#           20 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.60 %
+CSHTML       17 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.19 %
 ```
 
 <!--END_SECTION:waka-->
