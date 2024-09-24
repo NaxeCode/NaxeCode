@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 15 September 2024 - To: 22 September 2024
+From: 16 September 2024 - To: 23 September 2024
 
-Total Time: 7 hrs 34 mins
+Total Time: 9 hrs 36 mins
 
-Razor   6 hrs 16 mins   ████████████████████▒░░░░   81.89 %
-C#      1 hr 5 mins     ███▓░░░░░░░░░░░░░░░░░░░░░   14.14 %
-CSS     12 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.67 %
-Other   5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.27 %
-XML     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
+Razor        5 hrs 50 mins   ███████████████░░░░░░░░░░   60.20 %
+TypeScript   1 hr 59 mins    █████░░░░░░░░░░░░░░░░░░░░   20.55 %
+C#           46 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.03 %
+CSS          20 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.59 %
+Astro        18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.26 %
 ```
 
 <!--END_SECTION:waka-->
