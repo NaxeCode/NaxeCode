@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 21 September 2024 - To: 28 September 2024
+From: 22 September 2024 - To: 29 September 2024
 
-Total Time: 8 hrs 26 mins
+Total Time: 9 hrs 36 mins
 
-TypeScript   5 hrs 8 mins    ███████████████░░░░░░░░░░   59.51 %
-CSS          50 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.82 %
-Astro        45 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.77 %
-Razor        31 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.15 %
-JavaScript   19 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.75 %
+TypeScript   5 hrs 46 mins   ██████████████▓░░░░░░░░░░   58.95 %
+Astro        1 hr 3 mins     ██▓░░░░░░░░░░░░░░░░░░░░░░   10.74 %
+CSS          50 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 %
+Razor        31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.41 %
+JSON         22 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.78 %
 ```
 
 <!--END_SECTION:waka-->
