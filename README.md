@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 04 October 2024 - To: 11 October 2024
+From: 05 October 2024 - To: 12 October 2024
 
-Total Time: 2 hrs 22 mins
+Total Time: 2 hrs 26 mins
 
-TypeScript   1 hr 16 mins    █████████████▒░░░░░░░░░░░   53.06 %
-Lua          43 mins         ███████▓░░░░░░░░░░░░░░░░░   30.34 %
+TypeScript   1 hr 18 mins    █████████████▒░░░░░░░░░░░   53.53 %
+Lua          43 mins         ███████▒░░░░░░░░░░░░░░░░░   29.63 %
 Astro        8 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.73 %
-netrw        7 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.51 %
-Haxe         3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.38 %
+netrw        7 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.38 %
+Haxe         3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.33 %
 ```
 
 <!--END_SECTION:waka-->
