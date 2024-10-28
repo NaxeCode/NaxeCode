@@ -8,14 +8,14 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 19 October 2024 - To: 26 October 2024
+From: 20 October 2024 - To: 27 October 2024
 
-Total Time: 1 hr 22 mins
+Total Time: 1 hr 28 mins
 
-Markdown     30 mins         ███████▓░░░░░░░░░░░░░░░░░   31.12 %
-Haxe         25 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.10 %
-Other        14 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.95 %
-INI          5 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.30 %
+Markdown     30 mins         ███████▒░░░░░░░░░░░░░░░░░   29.30 %
+Haxe         25 mins         ██████░░░░░░░░░░░░░░░░░░░   24.57 %
+Other        14 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.46 %
+INI          5 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.99 %
 ```
 
 <!--END_SECTION:waka-->
