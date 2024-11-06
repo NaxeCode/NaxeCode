@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 28 October 2024 - To: 04 November 2024
+From: 29 October 2024 - To: 05 November 2024
 
-Total Time: 2 hrs 36 mins
+Total Time: 1 hr 38 mins
 
-Haxe        2 hrs 11 mins   █████████████████▓░░░░░░░   70.29 %
-Other       29 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.94 %
-Markdown    8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 %
-Lua         7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.87 %
-Bash        5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.69 %
+Haxe        1 hr 22 mins    ██████████████████░░░░░░░   71.76 %
+Other       16 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.25 %
+Markdown    8 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.41 %
+gitignore   4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.24 %
+Bash        2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.32 %
 ```
 
 <!--END_SECTION:waka-->
