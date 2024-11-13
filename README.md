@@ -8,14 +8,14 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 04 November 2024 - To: 11 November 2024
+From: 05 November 2024 - To: 12 November 2024
 
-Total Time: 2 hrs 24 mins
+Total Time: 2 hrs 35 mins
 
-Python       1 hr 21 mins    ██████████████░░░░░░░░░░░   56.27 %
-TypeScript   8 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.15 %
-JavaScript   7 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.91 %
-CSV          6 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.67 %
+Python       1 hr 33 mins    ███████████████░░░░░░░░░░   59.79 %
+TypeScript   8 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.70 %
+JavaScript   7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
+CSV          6 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 %
 ```
 
 <!--END_SECTION:waka-->
