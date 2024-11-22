@@ -8,12 +8,12 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 13 November 2024 - To: 20 November 2024
+From: 14 November 2024 - To: 21 November 2024
 
-Total Time: 3 hrs 11 mins
+Total Time: 3 hrs 3 mins
 
-Haxe          2 hrs 58 mins   ███████████████████████░░   92.32 %
-Other         1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.85 %
+Haxe          2 hrs 54 mins   ███████████████████████▓░   94.31 %
+Other         1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.87 %
 Objective-C   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
 ```
 
