@@ -8,11 +8,11 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 16 December 2024 - To: 23 December 2024
+From: 17 December 2024 - To: 24 December 2024
 
-Total Time: 2 hrs 7 mins
+Total Time: 2 hrs 57 mins
 
-Haxe   2 hrs 6 mins    █████████████████████████   99.91 %
+Haxe   2 hrs 49 mins   ███████████████████████▓░   95.06 %
 ```
 
 <!--END_SECTION:waka-->
