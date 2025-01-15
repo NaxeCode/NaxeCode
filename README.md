@@ -8,14 +8,14 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 06 January 2025 - To: 13 January 2025
+From: 07 January 2025 - To: 14 January 2025
 
-Total Time: 2 hrs 36 mins
+Total Time: 2 hrs 47 mins
 
-JavaScript   47 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.18 %
-Nix          42 mins         ██████░░░░░░░░░░░░░░░░░░░   23.47 %
-Other        24 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.43 %
-Markdown     11 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.12 %
+JavaScript   53 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.04 %
+Nix          42 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.26 %
+Other        31 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.98 %
+Markdown     11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.54 %
 ```
 
 <!--END_SECTION:waka-->
