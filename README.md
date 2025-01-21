@@ -8,7 +8,7 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 12 January 2025 - To: 19 January 2025
+From: 13 January 2025 - To: 20 January 2025
 
 Total Time: 11 mins
 
