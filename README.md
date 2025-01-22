@@ -8,13 +8,11 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 13 January 2025 - To: 20 January 2025
+From: 14 January 2025 - To: 21 January 2025
 
-Total Time: 11 mins
+Total Time: 0 secs
 
-Other        7 mins          ██████████░░░░░░░░░░░░░░░   40.50 %
-JavaScript   6 mins          ████████▓░░░░░░░░░░░░░░░░   35.30 %
-HTML         0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.49 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
