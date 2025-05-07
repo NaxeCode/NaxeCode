@@ -8,15 +8,11 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 28 April 2025 - To: 05 May 2025
+From: 29 April 2025 - To: 06 May 2025
 
-Total Time: 3 mins
+Total Time: 0 secs
 
-Other        19 mins         ████████████████████▓░░░░   82.78 %
-CSV          3 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.29 %
-Nushell      0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.55 %
-Markdown     0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.30 %
-JavaScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
