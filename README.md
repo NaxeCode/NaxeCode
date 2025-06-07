@@ -8,12 +8,14 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 29 May 2025 - To: 05 June 2025
+From: 30 May 2025 - To: 06 June 2025
 
-Total Time: 4 mins
+Total Time: 51 mins
 
-Other                              3 hrs 13 mins   ████████████████████████▒   97.98 %
-Microsoft Visual Studio Solution   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 %
+Other                              4 hrs 22 mins   █████████████████████░░░░   83.54 %
+Haxe                               24 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.78 %
+Lua                                19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.35 %
+Markdown                           1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
 ```
 
 <!--END_SECTION:waka-->
