@@ -8,15 +8,15 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 03 June 2025 - To: 10 June 2025
+From: 04 June 2025 - To: 11 June 2025
 
-Total Time: 1 hr 12 mins
+Total Time: 1 hr 11 mins
 
-Other                              3 hrs 47 mins   ███████████████████░░░░░░   75.88 %
-Haxe                               37 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.53 %
-Lua                                19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.64 %
-TypeScript                         7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.50 %
-Markdown                           1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
+Other        4 hrs 8 mins    ███████████████████▒░░░░░   77.57 %
+Haxe         37 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.76 %
+Lua          19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.23 %
+TypeScript   7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
+Markdown     1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.36 %
 ```
 
 <!--END_SECTION:waka-->
