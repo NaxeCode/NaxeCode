@@ -8,14 +8,12 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 13 June 2025 - To: 20 June 2025
+From: 14 June 2025 - To: 21 June 2025
 
-Total Time: 24 mins
+Total Time: 9 mins
 
-Other                              13 mins         █████████░░░░░░░░░░░░░░░░   36.09 %
-TypeScript                         7 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.70 %
-C#                                 2 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.92 %
-Microsoft Visual Studio Solution   1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.68 %
+TypeScript   7 mins          ███████████████████░░░░░░   75.74 %
+Haxe         2 mins          ██████░░░░░░░░░░░░░░░░░░░   24.26 %
 ```
 
 <!--END_SECTION:waka-->
