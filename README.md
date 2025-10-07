@@ -8,7 +8,7 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 28 September 2025 - To: 05 October 2025
+From: 29 September 2025 - To: 06 October 2025
 
 Total Time: 7 hrs 6 mins
 
