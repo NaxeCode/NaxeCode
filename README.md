@@ -8,14 +8,14 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 14 October 2025 - To: 21 October 2025
+From: 15 October 2025 - To: 22 October 2025
 
-Total Time: 10 hrs 7 mins
+Total Time: 9 hrs 41 mins
 
-TypeScript                         6 hrs 54 mins   ████████████████▒░░░░░░░░   65.53 %
-Markdown                           1 hr 3 mins     ██▓░░░░░░░░░░░░░░░░░░░░░░   10.08 %
-Other                              25 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.07 %
-XAML                               24 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.89 %
+TypeScript                         6 hrs 53 mins   █████████████████░░░░░░░░   67.93 %
+Markdown                           45 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.55 %
+Other                              26 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 %
+XAML                               25 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 %
 ```
 
 <!--END_SECTION:waka-->
