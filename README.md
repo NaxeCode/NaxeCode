@@ -8,14 +8,14 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 04 November 2025 - To: 11 November 2025
+From: 05 November 2025 - To: 12 November 2025
 
-Total Time: 5 hrs 34 mins
+Total Time: 5 hrs 10 mins
 
-TypeScript   3 hrs 50 mins   █████████████████░░░░░░░░   67.93 %
-PowerShell   19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.79 %
-Markdown     18 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.52 %
-Text         9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.68 %
+TypeScript   3 hrs 27 mins   ████████████████▒░░░░░░░░   65.70 %
+PowerShell   19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.22 %
+Markdown     18 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.93 %
+Text         9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.88 %
 ```
 
 <!--END_SECTION:waka-->
