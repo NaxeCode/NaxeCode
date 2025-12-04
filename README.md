@@ -8,11 +8,13 @@
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 24 November 2025 - To: 01 December 2025
+From: 25 November 2025 - To: 02 December 2025
 
-Total Time: 24 mins
+Total Time: 56 mins
 
-Other   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 %
+TypeScript   40 mins         ████████████████░░░░░░░░░   63.75 %
+Other        6 mins          ██▓░░░░░░░░░░░░░░░░░░░░░░   10.44 %
+JavaScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 %
 ```
 
 <!--END_SECTION:waka-->
