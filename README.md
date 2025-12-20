@@ -1,6 +1,5 @@
 ### Hi there, I'm NaxeCode 👋
-- 🔭 I work on fullstack on webapps and make games on the side!
-- ⚡ Fun fact: I very much enjoy potato chips
+- 🔭 I work on fullstack webapps!
 - 🔋 Checkout my site for more info: https://naxecode.github.io/
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark)](https://naxecode.github.io/)
