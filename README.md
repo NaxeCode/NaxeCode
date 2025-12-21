@@ -1,6 +1,6 @@
 # Aladdin Ali (NaxeCode)
 
-Full-stack engineer focused on polished, server-first web apps and reusable design systems.
+Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + Postgres/Drizzle
 
 [![Website](https://img.shields.io/badge/Website-naxe.dev-111827?style=flat&logo=googlechrome&logoColor=white)](https://naxecode.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aladdin-ali01/)
