@@ -4,6 +4,7 @@ I build premium-feeling full-stack web apps: fast UIs, clean design systems, and
 
 **Links**
 - Site: https://naxecode.github.io/
+- LinkedIn: https://www.linkedin.com/in/aladdin-ali01/
 - GitHub: https://github.com/NaxeCode
 
 ## Featured Projects
