@@ -4,6 +4,7 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
 
 [![Website](https://img.shields.io/badge/Website-naxe.dev-111827?style=flat&logo=googlechrome&logoColor=white)](https://naxecode.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aladdin-ali01/)
+[![X](https://img.shields.io/badge/X-@NaxeDev-111827?style=flat&logo=x&logoColor=white)](https://x.com/NaxeDev)
 ![Followers](https://img.shields.io/github/followers/NaxeCode?label=Follow&style=flat&logo=github)
 
 ## Highlights
