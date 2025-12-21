@@ -1,39 +1,28 @@
-# Hi, I’m NaxeCode
+# Aladdin Ali (NaxeCode)
 
-I build premium-feeling full-stack web apps: fast UIs, clean design systems, and type-safe backends. Lately I’ve been shipping a small ecosystem of cosmic-themed projects (shared design DNA, reusable UI primitives, and server-first app architecture).
+Full-stack engineer focused on polished, server-first web apps and reusable design systems.
 
-**Links**
-- Site: https://naxecode.github.io/
-- LinkedIn: https://www.linkedin.com/in/aladdin-ali01/
-- GitHub: https://github.com/NaxeCode
+[![Website](https://img.shields.io/badge/Website-naxe.dev-111827?style=flat&logo=googlechrome&logoColor=white)](https://naxecode.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aladdin-ali01/)
+![Followers](https://img.shields.io/github/followers/NaxeCode?label=Follow&style=flat&logo=github)
 
-## Featured Projects
-- `Stargazers-Cosmic-Watchlist` - server-first watchlist app (Next.js + Postgres + Drizzle + Auth + cosmic-ui)
-- `cosmic-ui` - lightweight React UI primitives with token-based theming (shared design DNA across apps)
-- `Cosmic-Digest` - RSS + relevance scoring + price watchlist + email delivery (.NET + Mailgun)
-- `Photon-Trail` - WIP personal finance dashboard (Plaid + Neon/Postgres + AI categorization)
-- `stargazers-site` - static cosmic landing page (vanilla HTML/CSS/JS + canvas particles)
-
-## What I’m Focused On
-- Building server-first Next.js apps with type-safe persistence (Drizzle + Postgres) and strong UI polish.
-- Designing token-driven component libraries that can be reused across projects.
-- Automation + “signal over noise” tooling (digests, dashboards, and smart summaries).
-
-## Tech Stack
-- Frontend: TypeScript, React, Next.js, Astro, Tailwind CSS, Radix UI
-- Backend: Node.js, Postgres, Drizzle ORM, .NET
+## Highlights
+- Next.js + Postgres + Drizzle (server-first CRUD, auth, dashboards)
+- Token-driven UI + component primitives (`cosmic-ui`, Radix-based)
 - Integrations: Plaid, OpenAI, Mailgun
-- Shipping: Vercel, Neon, Docker, GitHub Actions
 
-## Screenshots
-Add images to `assets/screenshots/` and replace these placeholders.
+## Featured Work
+- [Stargazers Cosmic Watchlist](https://github.com/NaxeCode/Stargazers-Cosmic-Watchlist) - premium watchlist with auth, smart stats, recommendations.
+- [cosmic-ui](https://github.com/stargazers-stella/cosmic-ui) - themeable React primitives (CSS tokens + Radix).
+- [Cosmic Digest](https://github.com/NaxeCode/Cosmic-Digest) - RSS ingest + relevance scoring + email digests (.NET).
+- [Photon Trail (WIP)](https://github.com/NaxeCode/Photon-Trail) - Plaid + Neon/Postgres + AI categorization.
 
-![Cosmic Watchlist](assets/screenshots/watchlist.png)
-![Photon Trail](assets/screenshots/photon-trail.png)
-![Cosmic Digest](assets/screenshots/cosmic-digest.png)
+<details>
+<summary><b>Stats</b></summary>
 
-## Stats
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark)](https://naxecode.github.io/)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark&hide_border=true)](https://github.com/NaxeCode)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
+</details>
