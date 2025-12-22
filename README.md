@@ -24,6 +24,15 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=naxecode&theme=onedark&hide_border=true)](https://github.com/NaxeCode)
 
 <!--START_SECTION:waka-->
+
+```csharp
+From: 14 December 2025 - To: 21 December 2025
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 </details>
