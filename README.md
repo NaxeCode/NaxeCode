@@ -13,10 +13,10 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
 - Integrations: Plaid, OpenAI, Mailgun
 
 ## Featured Work
-- [Stargazers Cosmic Watchlist](https://github.com/NaxeCode/Stargazers-Cosmic-Watchlist) - premium watchlist with auth, smart stats, recommendations.
-- [cosmic-ui](https://github.com/stargazers-stella/cosmic-ui) - themeable React primitives (CSS tokens + Radix).
+- [Cosmic Watchlist](https://github.com/NaxeCode/Stargazers-Cosmic-Watchlist) - [Live Site](https://stargazers-cosmic-watchlist.vercel.app/) premium watchlist with auth, smart stats, recommendations.
+- [cosmic-ui](https://github.com/stargazers-stella/cosmic-ui) - [Demo Site](https://stargazers-stella.github.io/cosmic-ui/) themeable React primitives (CSS tokens + Radix).
 - [Cosmic Digest](https://github.com/NaxeCode/Cosmic-Digest) - RSS ingest + relevance scoring + email digests (.NET).
-- [Photon Trail (WIP)](https://github.com/NaxeCode/Photon-Trail) - Plaid + Neon/Postgres + AI categorization.
+- [Photon Trail (WIP)](https://github.com/NaxeCode/Photon-Trail) (Work In Progress) - Plaid + Neon/Postgres + AI categorization.
 
 <details>
 <summary><b>Stats</b></summary>
