@@ -26,11 +26,12 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 16 February 2026 - To: 23 February 2026
+From: 17 February 2026 - To: 24 February 2026
 
-Total Time: 4 hrs 25 mins
+Total Time: 7 hrs 14 mins
 
-Haxe   3 hrs 51 mins         █████████████████████▓░░░   86.93 %
+Haxe       6 hrs 3 mins          █████████████████████░░░░   83.78 %
+Markdown   35 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.09 %
 ```
 
 <!--END_SECTION:waka-->
