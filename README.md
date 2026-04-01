@@ -10,6 +10,7 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
 ---
 
 ### 📊 GitHub Activity
+
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NaxeCode&theme=github-compact&bg_color=2d353b&color=d3c6aa&line=a7c080&point=e67e80)
 
 <div align="center">
@@ -17,18 +18,16 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=NaxeCode&theme=everforest&hide_border=true" height="192px" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaxeCode&layout=compact&theme=everforest_dark&hide_border=true&langs_count=8" height="165px" />
-</div>
-
 ---
 
 ### 🚀 Highlights
+
 - **Next.js + Postgres + Drizzle**: Expert in server-first CRUD, auth, and complex dashboards.
 - **Token-driven UI**: Creator of `cosmic-ui`, focusing on design tokens and accessible primitives.
 - **Integrations**: Skilled with Plaid (FinTech), OpenAI (AI), and transactional systems like Mailgun.
 
 ### 📁 Featured Work
+
 - [Cosmic Watchlist](https://github.com/NaxeCode/Stargazers-Cosmic-Watchlist) - [Live Site](https://stargazers-cosmic-watchlist.vercel.app/) Premium watchlist with auth, smart stats, and AI recommendations.
 - [cosmic-ui](https://github.com/stargazers-stella/cosmic-ui) - [Demo Site](https://stargazers-stella.github.io/cosmic-ui/) Themeable React primitives using CSS tokens + Radix.
 - [Cosmic Digest](https://github.com/NaxeCode/Cosmic-Digest) - RSS ingest + relevance scoring + email digests (.NET).
