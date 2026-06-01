@@ -39,7 +39,7 @@ Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + 
 <!--START_SECTION:waka-->
 
 ```csharp
-From: 22 May 2026 - To: 29 May 2026
+From: 24 May 2026 - To: 31 May 2026
 
 Total Time: 0 secs
 
