@@ -1,51 +1,33 @@
-# Aladdin Ali (NaxeCode)
+# Aladdin Ali · Naxe
 
-Backend-focused full-stack engineer | APIs, databases, integrations | Next.js + Postgres/Drizzle
+**Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, financial data, and the plumbing between them. I've also been making games since 2015.
 
-[![Website](https://img.shields.io/badge/Website-naxe.dev-111827?style=flat&logo=googlechrome&logoColor=white)](https://naxecode.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aladdin-ali01/)
-[![X](https://img.shields.io/badge/X-@NaxeDev-111827?style=flat&logo=x&logoColor=white)](https://x.com/NaxeDev)
-![Followers](https://img.shields.io/github/followers/NaxeCode?label=Follow&style=flat&logo=github)
+[![Website](https://img.shields.io/badge/site-naxecode.github.io-2d353b?style=flat&logo=githubpages&logoColor=d3c6aa)](https://naxecode.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-2d353b?style=flat&logo=linkedin&logoColor=a7c080)](https://www.linkedin.com/in/aladdin-ali01/)
+[![X](https://img.shields.io/badge/X-@NaxeDev-2d353b?style=flat&logo=x&logoColor=d3c6aa)](https://x.com/NaxeDev)
 
----
-
-### 📊 GitHub Activity
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NaxeCode&theme=github-compact&bg_color=2d353b&color=d3c6aa&line=a7c080&point=e67e80)
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NaxeCode&show_icons=true&theme=everforest_dark&hide_border=true&count_private=true" height="192px" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NaxeCode&theme=everforest&hide_border=true" height="192px" />
-</div>
+**Work:** C# / .NET · TypeScript · Postgres · Redis · Python workers · Next.js
+**Care about:** idempotency, retries and failure isolation, reconciliation, auditability, observability
 
 ---
 
-### 🚀 Highlights
+### Systems
 
-- **Next.js + Postgres + Drizzle**: Expert in server-first CRUD, auth, and complex dashboards.
-- **Token-driven UI**: Creator of `cosmic-ui`, focusing on design tokens and accessible primitives.
-- **Integrations**: Skilled with Plaid (FinTech), OpenAI (AI), and transactional systems like Mailgun.
+| Project | What it proves |
+| --- | --- |
+| [**Cosmic Digest**](https://github.com/NaxeCode/Cosmic-Digest) | .NET RSS ingestion with per-source health, conditional caching, retries and circuit breaking; relevance scoring decides what's worth sending before anything gets sent. |
+| [**Ground**](https://github.com/NaxeCode/pulse) | Financial-analysis platform foundation: Next.js front end, ASP.NET Core API, Python workers, Redis, Postgres/TimescaleDB, with clean service boundaries. *(WIP)* |
+| [**Photon Trail**](https://github.com/NaxeCode/Photon-Trail) | Personal-finance pipeline: Plaid ingestion into Neon/Postgres, with AI categorization that returns confidence scores. *(WIP)* |
+| [**Cosmic Watchlist**](https://github.com/NaxeCode/Cosmic-Watchlist) · [live](https://stargazers-cosmic-watchlist.vercel.app/) | Shipped server-first app: auth, fast CRUD, shareable filters, stats, recommendations. |
 
-### 📁 Featured Work
+### Tools I actually use
 
-- [Cosmic Watchlist](https://github.com/NaxeCode/Stargazers-Cosmic-Watchlist) - [Live Site](https://stargazers-cosmic-watchlist.vercel.app/) Premium watchlist with auth, smart stats, and AI recommendations.
-- [cosmic-ui](https://github.com/stargazers-stella/cosmic-ui) - [Demo Site](https://stargazers-stella.github.io/cosmic-ui/) Themeable React primitives using CSS tokens + Radix.
-- [Cosmic Digest](https://github.com/NaxeCode/Cosmic-Digest) - RSS ingest + relevance scoring + email digests (.NET).
-- [Photon Trail (WIP)](https://github.com/NaxeCode/Photon-Trail) - FinTech platform using Plaid + Neon + AI categorization.
+- [**ActivityMux**](https://github.com/NaxeCode/activitymux): Discord Rich Presence from presets and process rules. Windows and Linux [releases](https://github.com/NaxeCode/activitymux/releases/latest).
+- [**jp-assist**](https://github.com/NaxeCode/jp-assist): real-time Japanese translation for voice calls, running whisper.cpp and llama.cpp locally on AMD ROCm.
+- [**caelestia-shell (OLED fork)**](https://github.com/NaxeCode/caelestia-shell-naxecode): Wayland shell fork with an OLED blackout mode, packaged as an Arch PKGBUILD.
 
-<details>
-<summary><b>Detailed Coding Metrics</b></summary>
+### Games
 
-<!--START_SECTION:waka-->
-
-```csharp
-From: 21 September 2026 - To: 28 September 2026
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
-</details>
+- [**Minnen**](https://github.com/NaxeCode/Minnen): a psychological game about night terrors (Haxe, in development).
+- [**Ahmar**](https://github.com/NaxeCode/Ahmar): top-down action in the spirit of Hyper Light Drifter (Haxe).
+- [**CosmicEngine**](https://github.com/NaxeCode/CosmicEngine): modular 2D engine architecture in C# for platformers, JRPG combat, and dialogue.
