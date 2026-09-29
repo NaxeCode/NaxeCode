@@ -30,4 +30,4 @@
 
 - [**Minnen**](https://github.com/NaxeCode/Minnen): a psychological game about night terrors (Haxe, in development).
 - [**Ahmar**](https://github.com/NaxeCode/Ahmar): top-down action in the spirit of Hyper Light Drifter (Haxe).
-- [**CosmicEngine**](https://github.com/NaxeCode/CosmicEngine): modular 2D engine architecture in C# for platformers, JRPG combat, and dialogue.
+- [**CosmicEngine**](https://github.com/NaxeCode/CosmicEngine): a small 2D engine core in C#: renderer, scene manager, and input.
