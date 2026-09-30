@@ -7,9 +7,12 @@
 [![Website](https://img.shields.io/badge/site-naxecode.github.io-2d353b?style=flat&logo=githubpages&logoColor=d3c6aa)](https://naxecode.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-2d353b?style=flat&logo=linkedin&logoColor=a7c080)](https://www.linkedin.com/in/aladdin-ali01/)
 [![X](https://img.shields.io/badge/X-@NaxeDev-2d353b?style=flat&logo=x&logoColor=d3c6aa)](https://x.com/NaxeDev)
+[![Linear](https://img.shields.io/badge/tracked_in-Linear-2d353b?style=flat&logo=linear&logoColor=d3c6aa)](https://linear.app)
 
 **Work:** C# / .NET · TypeScript · Postgres · Redis · Python workers · Next.js
 **Care about:** idempotency, retries and failure isolation, reconciliation, auditability, observability
+
+**How I run projects:** tracked in Linear · every PR AI-reviewed by Codex against per-repo rules · PR-only main branches
 
 ---
 
