@@ -1,13 +1,13 @@
-<img src=".github/brand/logo.svg" width="96" align="left" alt="Naxe logo" />
+<img src=".github/brand/logo.svg" width="124" align="left" alt="Naxe logo" />
 
 ### Aladdin Ali · Naxe
 **Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Making games since 2015.  
-<sub>Open to backend & platform roles · Florida, open to U.S. relocation · <a href="mailto:naxecode@proton.me">naxecode@proton.me</a></sub>
+<sub>Open to backend & platform roles · Florida, open to U.S. relocation</sub>
 
-[![Website](https://img.shields.io/badge/site-naxecode.github.io-2d353b?style=flat&logo=githubpages&logoColor=d3c6aa)](https://naxecode.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-2d353b?style=flat&logo=linkedin&logoColor=a7c080)](https://www.linkedin.com/in/aladdin-ali01/)
-[![X](https://img.shields.io/badge/X-@NaxeDev-2d353b?style=flat&logo=x&logoColor=d3c6aa)](https://x.com/NaxeDev)
-[![Linear](https://img.shields.io/badge/tracked_in-Linear-2d353b?style=flat&logo=linear&logoColor=d3c6aa)](https://linear.app)
+[![Website](https://img.shields.io/badge/naxecode.github.io-a7c080?style=flat-square&logo=githubpages&logoColor=2d353b)](https://naxecode.github.io/)
+[![Email](https://img.shields.io/badge/naxecode@proton.me-d699b6?style=flat-square&logo=protonmail&logoColor=2d353b)](mailto:naxecode@proton.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-7fbbb3?style=flat-square)](https://www.linkedin.com/in/aladdin-ali01/)
+[![X](https://img.shields.io/badge/@NaxeDev-d3c6aa?style=flat-square&logo=x&logoColor=2d353b)](https://x.com/NaxeDev)
 <br clear="left">
 
 **Stack** C# / .NET · TypeScript · Postgres · Redis · Python workers · Next.js  
@@ -86,5 +86,5 @@
 </tr>
 </table>
 
-**How I run projects:** everything is tracked in Linear · every PR gets an AI review (Codex) against that repo's own rules · default branches only change through PRs.  
+**How I run projects:** everything is tracked in [Linear](https://linear.app) · every PR gets an AI review (Codex) against that repo's own rules · default branches only change through PRs.  
 <sub>More projects, write-ups and experience on <a href="https://naxecode.github.io">naxecode.github.io</a>.</sub>
