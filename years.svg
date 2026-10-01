@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="852" height="200" viewBox="0 0 852 200" role="img" aria-label="Contributions per year">
+<title>Contributions per year</title>
+<rect x="0.5" y="0.5" width="851" height="199" rx="10" fill="#2d353b" stroke="#475258"/>
+<text x="22" y="34" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5">CONTRIBUTIONS PER YEAR</text>
+<line x1="22" y1="162.5" x2="830" y2="162.5" stroke="#3d484d"/>
+<rect x="34.8" y="160.0" width="41.7" height="2.0" rx="3" fill="#a7c080"/>
+<text x="55.7" y="154.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">9</text>
+<text x="55.7" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2015</text>
+<rect x="102.1" y="160.0" width="41.7" height="2.0" rx="3" fill="#a7c080"/>
+<text x="123.0" y="154.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">6</text>
+<text x="123.0" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2016</text>
+<rect x="169.5" y="160.0" width="41.7" height="2.0" rx="3" fill="#a7c080"/>
+<text x="190.3" y="154.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">7</text>
+<text x="190.3" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2017</text>
+<rect x="236.8" y="157.0" width="41.7" height="5.0" rx="3" fill="#a7c080"/>
+<text x="257.7" y="151.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">119</text>
+<text x="257.7" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2018</text>
+<rect x="304.1" y="160.0" width="41.7" height="2.0" rx="3" fill="#a7c080"/>
+<text x="325.0" y="154.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">9</text>
+<text x="325.0" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2019</text>
+<rect x="371.5" y="160.0" width="41.7" height="2.0" rx="3" fill="#a7c080"/>
+<text x="392.3" y="154.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">48</text>
+<text x="392.3" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2020</text>
+<rect x="438.8" y="122.0" width="41.7" height="40.0" rx="3" fill="#a7c080"/>
+<text x="459.7" y="116.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">949</text>
+<text x="459.7" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2021</text>
+<rect x="506.1" y="153.5" width="41.7" height="8.5" rx="3" fill="#a7c080"/>
+<text x="527.0" y="147.5" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">201</text>
+<text x="527.0" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2022</text>
+<rect x="573.5" y="150.2" width="41.7" height="11.8" rx="3" fill="#a7c080"/>
+<text x="594.3" y="144.2" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">281</text>
+<text x="594.3" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2023</text>
+<rect x="640.8" y="139.6" width="41.7" height="22.4" rx="3" fill="#a7c080"/>
+<text x="661.7" y="133.6" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">531</text>
+<text x="661.7" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2024</text>
+<rect x="708.1" y="70.0" width="41.7" height="92.0" rx="3" fill="#a7c080"/>
+<text x="729.0" y="64.0" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">2,184</text>
+<text x="729.0" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2025</text>
+<rect x="775.5" y="90.5" width="41.7" height="71.5" rx="3" fill="#7fbbb3"/>
+<text x="796.3" y="84.5" fill="#d3c6aa" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">1,697</text>
+<text x="796.3" y="182" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" text-anchor="middle">2026</text>
+</svg>
