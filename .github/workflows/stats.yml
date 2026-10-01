@@ -1,0 +1,49 @@
+# Renders the profile stat cards and commits them to the `stats` branch,
+# so main's history stays clean and no third-party card service is needed.
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/stats.py", ".github/workflows/stats.yml"]
+
+permissions:
+  contents: write
+
+concurrency: profile-stats
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/stats.py "$GITHUB_REPOSITORY_OWNER" "$RUNNER_TEMP/cards"
+
+      - name: Publish to stats branch
+        run: |
+          set -euo pipefail
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          out="$RUNNER_TEMP/out"
+          if git ls-remote --exit-code --heads origin stats >/dev/null; then
+            git fetch --depth=1 origin stats
+            git worktree add -B stats "$out" FETCH_HEAD
+          else
+            git worktree add --orphan -b stats "$out"
+          fi
+          cp "$RUNNER_TEMP"/cards/*.svg "$out/"
+          cd "$out"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Cards unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile stats"
+          git push origin stats
