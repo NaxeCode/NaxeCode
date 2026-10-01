@@ -1,12 +1,11 @@
-<img src=".github/brand/logo.svg" width="124" align="left" alt="Naxe logo" />
+<img src=".github/brand/logo.svg" width="148" align="left" alt="Naxe logo" />
 
 ### Aladdin Ali · Naxe
 **Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Making games since 2015.  
-<sub>Open to backend & platform roles · Florida, open to U.S. relocation</sub>
-
-[![Website](https://img.shields.io/badge/naxecode.github.io-a7c080?style=flat-square&logo=githubpages&logoColor=2d353b)](https://naxecode.github.io/)
+<sub>Open to backend & platform roles · Florida, open to U.S. relocation</sub>  
+[![Website](https://img.shields.io/badge/naxecode.github.io-a7c080?style=flat-square&logo=github&logoColor=2d353b)](https://naxecode.github.io/)
 [![Email](https://img.shields.io/badge/naxecode@proton.me-d699b6?style=flat-square&logo=protonmail&logoColor=2d353b)](mailto:naxecode@proton.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-7fbbb3?style=flat-square)](https://www.linkedin.com/in/aladdin-ali01/)
+[![LinkedIn](https://img.shields.io/badge/in%2Faladdin--ali01-7fbbb3?style=flat-square)](https://www.linkedin.com/in/aladdin-ali01/)
 [![X](https://img.shields.io/badge/@NaxeDev-d3c6aa?style=flat-square&logo=x&logoColor=2d353b)](https://x.com/NaxeDev)
 <br clear="left">
 
