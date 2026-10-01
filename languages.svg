@@ -1,31 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="Top languages · public repos">
 <title>Top languages · public repos</title>
-<rect x="0.5" y="0.5" width="419" height="199" rx="10" fill="#2d353b" stroke="#475258"/>
-<text x="22" y="34" fill="#9da9a0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.5">TOP LANGUAGES · PUBLIC REPOS</text>
-<clipPath id="bar"><rect x="22" y="52" width="376" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">
-<rect x="22.0" y="52" width="176.2" height="10" fill="#a7c080"/>
-<rect x="197.7" y="52" width="114.5" height="10" fill="#7fbbb3"/>
-<rect x="311.8" y="52" width="38.3" height="10" fill="#d699b6"/>
-<rect x="349.6" y="52" width="13.8" height="10" fill="#e69875"/>
-<rect x="363.0" y="52" width="11.3" height="10" fill="#dbbc7f"/>
-<rect x="373.7" y="52" width="10.3" height="10" fill="#83c092"/>
-<rect x="383.5" y="52" width="8.6" height="10" fill="#e67e80"/>
-<rect x="391.6" y="52" width="6.9" height="10" fill="#9da9a0"/>
+<defs>
+<linearGradient id="aura" x1="0" y1="0" x2="1" y2="0"><stop offset="0.00" stop-color="#22baf3"/><stop offset="0.25" stop-color="#7c83ff"/><stop offset="0.50" stop-color="#cb69f3"/><stop offset="0.75" stop-color="#ff6592"/><stop offset="1.00" stop-color="#fea334"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#171b28"/><stop offset="1" stop-color="#0b0e1a"/></linearGradient>
+<radialGradient id="nebulaA" cx="0.88" cy="0.05" r="0.75"><stop offset="0" stop-color="#cb69f3" stop-opacity="0.22"/><stop offset="1" stop-color="#cb69f3" stop-opacity="0"/></radialGradient>
+<radialGradient id="nebulaB" cx="0.05" cy="1" r="0.7"><stop offset="0" stop-color="#22baf3" stop-opacity="0.14"/><stop offset="1" stop-color="#22baf3" stop-opacity="0"/></radialGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22baf3" stop-opacity="0"/><stop offset="0.5" stop-color="#7c83ff" stop-opacity="0.7"/><stop offset="1" stop-color="#ff6592" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<clipPath id="frame"><rect width="420" height="200" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="420" height="200" fill="url(#glass)"/>
+<rect width="420" height="200" fill="url(#nebulaA)"/>
+<rect width="420" height="200" fill="url(#nebulaB)"/>
+<circle cx="222.3" cy="102.8" r="1.1" fill="#f1f3fc" opacity="0.37"/><circle cx="378.6" cy="68.9" r="0.5" fill="#f1f3fc" opacity="0.28"/><circle cx="335.3" cy="61.8" r="0.6" fill="#f1f3fc" opacity="0.33"/><circle cx="282.4" cy="64.9" r="0.5" fill="#f1f3fc" opacity="0.26"/><circle cx="117.5" cy="60.9" r="1.1" fill="#f1f3fc" opacity="0.27"/><circle cx="407.1" cy="123.7" r="0.8" fill="#f1f3fc" opacity="0.19"/><circle cx="241.0" cy="53.9" r="0.8" fill="#f1f3fc" opacity="0.27"/><circle cx="278.2" cy="11.1" r="0.5" fill="#94dcf5" opacity="0.24"/><circle cx="239.8" cy="23.2" r="0.5" fill="#f1f3fc" opacity="0.18"/><circle cx="93.8" cy="52.0" r="1.1" fill="#f1f3fc" opacity="0.34"/><circle cx="64.3" cy="60.8" r="0.8" fill="#f1f3fc" opacity="0.30"/><circle cx="231.7" cy="98.7" r="0.8" fill="#f1f3fc" opacity="0.35"/><circle cx="222.0" cy="4.3" r="0.8" fill="#f1f3fc" opacity="0.36"/><circle cx="270.1" cy="43.6" r="0.8" fill="#f1f3fc" opacity="0.32"/><circle cx="204.2" cy="180.2" r="0.8" fill="#f1f3fc" opacity="0.42"/><circle cx="368.8" cy="58.4" r="0.8" fill="#94dcf5" opacity="0.44"/><circle cx="324.0" cy="89.2" r="1.1" fill="#f1f3fc" opacity="0.39"/><circle cx="33.6" cy="36.7" r="0.8" fill="#f1f3fc" opacity="0.24"/><circle cx="335.3" cy="195.5" r="0.8" fill="#f1f3fc" opacity="0.44"/><circle cx="179.7" cy="25.5" r="0.6" fill="#f1f3fc" opacity="0.30"/><circle cx="226.1" cy="24.7" r="0.6" fill="#f1f3fc" opacity="0.17"/><circle cx="270.2" cy="12.5" r="0.5" fill="#94dcf5" opacity="0.31"/><circle cx="81.7" cy="134.1" r="0.5" fill="#f1f3fc" opacity="0.44"/><circle cx="375.8" cy="71.5" r="0.8" fill="#f1f3fc" opacity="0.34"/><circle cx="225.7" cy="135.9" r="0.8" fill="#f1f3fc" opacity="0.40"/><circle cx="39.9" cy="19.4" r="0.5" fill="#f1f3fc" opacity="0.39"/><circle cx="13.7" cy="52.8" r="0.6" fill="#f1f3fc" opacity="0.18"/><circle cx="34.9" cy="32.0" r="0.8" fill="#94dcf5" opacity="0.12"/><circle cx="88.4" cy="41.2" r="0.5" fill="#f1f3fc" opacity="0.20"/><circle cx="189.9" cy="176.5" r="0.5" fill="#f1f3fc" opacity="0.41"/><circle cx="368.1" cy="63.0" r="0.5" fill="#f1f3fc" opacity="0.15"/><circle cx="90.8" cy="97.8" r="0.6" fill="#f1f3fc" opacity="0.40"/><circle cx="130.3" cy="72.4" r="0.5" fill="#f1f3fc" opacity="0.16"/><circle cx="220.7" cy="186.1" r="1.1" fill="#f1f3fc" opacity="0.21"/><circle cx="313.8" cy="134.0" r="0.8" fill="#f1f3fc" opacity="0.17"/><circle cx="8.6" cy="158.9" r="0.8" fill="#f1f3fc" opacity="0.29"/><circle cx="196.1" cy="155.7" r="1.1" fill="#f1f3fc" opacity="0.43"/><circle cx="222.1" cy="115.5" r="0.5" fill="#f1f3fc" opacity="0.41"/><circle cx="329.1" cy="15.6" r="0.6" fill="#f1f3fc" opacity="0.37"/><circle cx="107.6" cy="85.4" r="0.6" fill="#f1f3fc" opacity="0.14"/><circle cx="91.6" cy="16.5" r="0.8" fill="#f1f3fc" opacity="0.36"/><circle cx="369.6" cy="7.8" r="0.6" fill="#f1f3fc" opacity="0.35"/><circle cx="397.1" cy="78.3" r="0.5" fill="#94dcf5" opacity="0.32"/><circle cx="19.6" cy="39.3" r="1.1" fill="#f1f3fc" opacity="0.14"/><circle cx="348.5" cy="36.5" r="0.8" fill="#f1f3fc" opacity="0.42"/><circle cx="24.7" cy="182.5" r="0.8" fill="#f1f3fc" opacity="0.36"/><circle cx="86.9" cy="34.0" r="1.1" fill="#f1f3fc" opacity="0.34"/><circle cx="204.8" cy="17.6" r="0.8" fill="#f1f3fc" opacity="0.32"/><circle cx="398.8" cy="140.2" r="0.8" fill="#f1f3fc" opacity="0.44"/><circle cx="202.5" cy="82.4" r="0.8" fill="#f1f3fc" opacity="0.41"/><circle cx="246.7" cy="115.2" r="0.5" fill="#f1f3fc" opacity="0.18"/><circle cx="105.8" cy="167.0" r="0.5" fill="#f1f3fc" opacity="0.24"/><circle cx="286.8" cy="103.0" r="0.8" fill="#94dcf5" opacity="0.39"/><circle cx="368.5" cy="36.8" r="1.1" fill="#f1f3fc" opacity="0.24"/><circle cx="379.7" cy="31.6" r="1.1" fill="#94dcf5" opacity="0.25"/><circle cx="326.2" cy="98.5" r="0.8" fill="#f1f3fc" opacity="0.33"/>
+<rect x="40" y="0" width="340" height="1.5" fill="url(#rim)"/>
 </g>
-<circle cx="27" cy="87" r="5" fill="#a7c080"/>
-<text x="40" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">TypeScript</tspan><tspan fill="#9da9a0" dx="6">46.7%</tspan></text>
-<circle cx="217" cy="87" r="5" fill="#7fbbb3"/>
-<text x="230" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">C#</tspan><tspan fill="#9da9a0" dx="6">30.3%</tspan></text>
-<circle cx="27" cy="115" r="5" fill="#d699b6"/>
-<text x="40" y="120" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">Haxe</tspan><tspan fill="#9da9a0" dx="6">10.1%</tspan></text>
-<circle cx="217" cy="115" r="5" fill="#e69875"/>
-<text x="230" y="120" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">Rust</tspan><tspan fill="#9da9a0" dx="6">3.5%</tspan></text>
-<circle cx="27" cy="143" r="5" fill="#dbbc7f"/>
-<text x="40" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">Python</tspan><tspan fill="#9da9a0" dx="6">2.9%</tspan></text>
-<circle cx="217" cy="143" r="5" fill="#83c092"/>
-<text x="230" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">JavaScript</tspan><tspan fill="#9da9a0" dx="6">2.6%</tspan></text>
-<circle cx="27" cy="171" r="5" fill="#e67e80"/>
-<text x="40" y="176" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">Shell</tspan><tspan fill="#9da9a0" dx="6">2.1%</tspan></text>
-<circle cx="217" cy="171" r="5" fill="#9da9a0"/>
-<text x="230" y="176" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14"><tspan fill="#d3c6aa">Nushell</tspan><tspan fill="#9da9a0" dx="6">1.7%</tspan></text>
+<rect x="0.5" y="0.5" width="419" height="199" rx="18" fill="none" stroke="#384155"/>
+<text x="24" y="36" fill="#bdd3ef" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">TOP LANGUAGES · PUBLIC REPOS</text>
+<clipPath id="bar"><rect x="24" y="54" width="372" height="8" rx="4"/></clipPath><g clip-path="url(#bar)">
+<rect x="24.0" y="54" width="174.4" height="8" fill="#22baf3"/>
+<rect x="197.9" y="54" width="113.3" height="8" fill="#7c83ff"/>
+<rect x="310.7" y="54" width="37.9" height="8" fill="#cb69f3"/>
+<rect x="348.1" y="54" width="13.7" height="8" fill="#ff6592"/>
+<rect x="361.3" y="54" width="11.1" height="8" fill="#fea334"/>
+<rect x="372.0" y="54" width="10.2" height="8" fill="#94dcf5"/>
+<rect x="381.7" y="54" width="8.5" height="8" fill="#ffcba8"/>
+<rect x="389.7" y="54" width="6.8" height="8" fill="#8b95ad"/>
+</g>
+<circle cx="28" cy="89.5" r="3.5" fill="#22baf3"/><circle cx="28" cy="89.5" r="7.5" fill="#22baf3" opacity="0.18"/>
+<text x="42" y="94" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">TypeScript</tspan><tspan fill="#8b95ad" dx="6">46.7%</tspan></text>
+<circle cx="216" cy="89.5" r="3.5" fill="#7c83ff"/><circle cx="216" cy="89.5" r="7.5" fill="#7c83ff" opacity="0.18"/>
+<text x="230" y="94" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">C#</tspan><tspan fill="#8b95ad" dx="6">30.3%</tspan></text>
+<circle cx="28" cy="116.5" r="3.5" fill="#cb69f3"/><circle cx="28" cy="116.5" r="7.5" fill="#cb69f3" opacity="0.18"/>
+<text x="42" y="121" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">Haxe</tspan><tspan fill="#8b95ad" dx="6">10.1%</tspan></text>
+<circle cx="216" cy="116.5" r="3.5" fill="#ff6592"/><circle cx="216" cy="116.5" r="7.5" fill="#ff6592" opacity="0.18"/>
+<text x="230" y="121" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">Rust</tspan><tspan fill="#8b95ad" dx="6">3.5%</tspan></text>
+<circle cx="28" cy="143.5" r="3.5" fill="#fea334"/><circle cx="28" cy="143.5" r="7.5" fill="#fea334" opacity="0.18"/>
+<text x="42" y="148" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">Python</tspan><tspan fill="#8b95ad" dx="6">2.9%</tspan></text>
+<circle cx="216" cy="143.5" r="3.5" fill="#94dcf5"/><circle cx="216" cy="143.5" r="7.5" fill="#94dcf5" opacity="0.18"/>
+<text x="230" y="148" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">JavaScript</tspan><tspan fill="#8b95ad" dx="6">2.6%</tspan></text>
+<circle cx="28" cy="170.5" r="3.5" fill="#ffcba8"/><circle cx="28" cy="170.5" r="7.5" fill="#ffcba8" opacity="0.18"/>
+<text x="42" y="175" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">Shell</tspan><tspan fill="#8b95ad" dx="6">2.1%</tspan></text>
+<circle cx="216" cy="170.5" r="3.5" fill="#8b95ad"/><circle cx="216" cy="170.5" r="7.5" fill="#8b95ad" opacity="0.18"/>
+<text x="230" y="175" font-family="Inter, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5"><tspan fill="#f1f3fc">Nushell</tspan><tspan fill="#8b95ad" dx="6">1.7%</tspan></text>
 </svg>
