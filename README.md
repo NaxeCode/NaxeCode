@@ -1,7 +1,8 @@
 <img src=".github/brand/logo.svg" width="96" align="left" alt="Naxe logo" />
 
 ### Aladdin Ali · Naxe
-**Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Making games since 2015.
+**Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Making games since 2015.  
+<sub>Open to backend & platform roles · Florida, open to U.S. relocation · <a href="mailto:naxecode@proton.me">naxecode@proton.me</a></sub>
 
 [![Website](https://img.shields.io/badge/site-naxecode.github.io-2d353b?style=flat&logo=githubpages&logoColor=d3c6aa)](https://naxecode.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aladdin--ali01-2d353b?style=flat&logo=linkedin&logoColor=a7c080)](https://www.linkedin.com/in/aladdin-ali01/)
