@@ -23,7 +23,8 @@ jobs:
 
       - name: Render cards
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          # Optional read-only PAT (secret STATS_TOKEN) also counts PRs in private repos.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
         run: python3 .github/scripts/stats.py "$GITHUB_REPOSITORY_OWNER" "$RUNNER_TEMP/cards"
 
       - name: Publish to stats branch
