@@ -2,7 +2,8 @@
 """Render profile stat cards (Stella / cosmic theme) from the GitHub GraphQL API.
 
 Usage: GITHUB_TOKEN=... stats.py <login> <out_dir>
-Writes overview.svg, languages.svg and years.svg. Standard library only.
+Writes dashboard.svg: one panel with overview, languages and yearly contributions
+sharing a single background. Standard library only.
 """
 import datetime as dt
 import json
@@ -104,43 +105,30 @@ def streaks(days):
     return current, longest
 
 
+W, ROW, YEARS_H, FOOT = 880, 204, 196, 40
+H = ROW + YEARS_H + FOOT
+
+
 def stars(width, height, seed):
-    """A sparse, deterministic starfield so cards don't flicker between runs."""
+    """A sparse, deterministic starfield so the panel doesn't flicker between runs."""
     rng = random.Random(seed)
     out = []
-    for _ in range(width * height // 1500):
+    for _ in range(width * height // 1700):
         x, y = rng.uniform(4, width - 4), rng.uniform(4, height - 4)
-        r, o = rng.choice((0.5, 0.6, 0.8, 1.1)), rng.uniform(0.12, 0.45)
+        r, o = rng.choice((0.5, 0.6, 0.8, 1.1)), rng.uniform(0.1, 0.4)
         color = ICE if rng.random() < 0.15 else TEXT
         out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{color}" opacity="{o:.2f}"/>')
     return "".join(out)
 
 
-def card(width, height, title, body):
-    stops = "".join(f'<stop offset="{i / (len(AURA) - 1):.2f}" stop-color="{c}"/>' for i, c in enumerate(AURA))
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{escape(title)}">
-<title>{escape(title)}</title>
-<defs>
-<linearGradient id="aura" x1="0" y1="0" x2="1" y2="0">{stops}</linearGradient>
-<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{GLASS}"/><stop offset="1" stop-color="{SPACE}"/></linearGradient>
-<radialGradient id="nebulaA" cx="0.88" cy="0.05" r="0.75"><stop offset="0" stop-color="{VIOLET}" stop-opacity="0.22"/><stop offset="1" stop-color="{VIOLET}" stop-opacity="0"/></radialGradient>
-<radialGradient id="nebulaB" cx="0.05" cy="1" r="0.7"><stop offset="0" stop-color="{CYAN}" stop-opacity="0.14"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></radialGradient>
-<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{CYAN}" stop-opacity="0"/><stop offset="0.5" stop-color="{BLUE}" stop-opacity="0.7"/><stop offset="1" stop-color="{ROSE}" stop-opacity="0"/></linearGradient>
-<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
-<clipPath id="frame"><rect width="{width}" height="{height}" rx="18"/></clipPath>
-</defs>
-<g clip-path="url(#frame)">
-<rect width="{width}" height="{height}" fill="url(#glass)"/>
-<rect width="{width}" height="{height}" fill="url(#nebulaA)"/>
-<rect width="{width}" height="{height}" fill="url(#nebulaB)"/>
-{stars(width, height, seed=title)}
-<rect x="40" y="0" width="{width - 80}" height="1.5" fill="url(#rim)"/>
-</g>
-<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="18" fill="none" stroke="{BORDER}"/>
-<text x="24" y="36" fill="{LABEL}" font-family="{SANS}" font-size="11" font-weight="600" letter-spacing="2.2">{escape(title.upper())}</text>
-{body}
-</svg>
-"""
+def label(x, y, text):
+    return f'<text x="{x}" y="{y}" fill="{LABEL}" font-family="{SANS}" font-size="11" font-weight="600" letter-spacing="2.2">{escape(text.upper())}</text>'
+
+
+def stat_line(x, y, value, text, color):
+    return (f'<circle cx="{x + 3}" cy="{y - 4}" r="3" fill="{color}"/><circle cx="{x + 3}" cy="{y - 4}" r="7" fill="{color}" opacity="0.18"/>'
+            f'<text x="{x + 16}" y="{y}" font-family="{SANS}" font-size="13.5"><tspan fill="{TEXT}" font-weight="700">{value}</tspan>'
+            f'<tspan fill="{MUTED}" dx="6">{escape(text)}</tspan></text>')
 
 
 def sparkline(days, x, y, w, h):
@@ -151,8 +139,6 @@ def sparkline(days, x, y, w, h):
     pts = [(x + i * step, y + h - h * c / peak) for i, c in enumerate(weeks)]
     line = " ".join(f"{px:.1f},{py:.1f}" for px, py in pts)
     return (
-        f'<defs><linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{VIOLET}" stop-opacity="0.35"/>'
-        f'<stop offset="1" stop-color="{BLUE}" stop-opacity="0"/></linearGradient></defs>'
         f'<polygon points="{x},{y + h} {line} {x + w},{y + h}" fill="url(#haze)"/>'
         f'<polyline points="{line}" fill="none" stroke="url(#aura)" stroke-width="5" stroke-opacity="0.18" stroke-linejoin="round"/>'
         f'<polyline points="{line}" fill="none" stroke="url(#aura)" stroke-width="1.8" stroke-linejoin="round"/>'
@@ -161,77 +147,122 @@ def sparkline(days, x, y, w, h):
     )
 
 
-def overview(s):
+def overview(s, x0):
     current, longest = streaks(s["days"])
     total = sum(s["years"].values())
+    out = [
+        label(x0, 40, "GitHub at a glance"),
+        f'<text x="{x0}" y="88" fill="url(#aura)" font-family="{SANS}" font-size="42" font-weight="800" letter-spacing="-1">{total:,}</text>',
+        f'<text x="{x0}" y="110" fill="{LABEL}" font-family="{SANS}" font-size="13">contributions since {s["since"]}</text>',
+        sparkline(s["days"], x=x0 + 212, y=56, w=168, h=54),
+    ]
     stats = [
         (f"{s['last_year']:,}", "last 12 months", CYAN),
         (f"{s['prs']:,}", f"PRs · {s['merged']:,} merged", VIOLET),
         (f"{current:,}d", "current streak", ROSE),
         (f"{longest:,}d", "longest streak, 12 mo", AMBER),
     ]
-    body = [
-        f'<text x="24" y="84" fill="url(#aura)" font-family="{SANS}" font-size="42" font-weight="800" letter-spacing="-1">{total:,}</text>',
-        f'<text x="24" y="106" fill="{LABEL}" font-family="{SANS}" font-size="13">contributions since {s["since"]}</text>',
-        sparkline(s["days"], x=236, y=52, w=160, h=54),
-    ]
-    for i, (value, label, color) in enumerate(stats):
-        x, y = 24 + (i % 2) * 188, 142 + (i // 2) * 32
-        body.append(f'<circle cx="{x + 3}" cy="{y - 4}" r="3" fill="{color}"/><circle cx="{x + 3}" cy="{y - 4}" r="7" fill="{color}" opacity="0.18"/>')
-        body.append(f'<text x="{x + 16}" y="{y}" font-family="{SANS}" font-size="13.5"><tspan fill="{TEXT}" font-weight="700">{value}</tspan><tspan fill="{MUTED}" dx="6">{escape(label)}</tspan></text>')
-    return card(420, 200, "GitHub at a glance", "\n".join(body))
+    for i, (value, text, color) in enumerate(stats):
+        out.append(stat_line(x0 + (i % 2) * 192, 148 + (i // 2) * 30, value, text, color))
+    return "".join(out)
 
 
-def languages(s, top=8):
+def languages(s, x0, top=8):
     langs = s["langs"][:top]
     total = sum(size for _, size in langs) or 1
-    body, x, bar_w = [], 24.0, 372
-    body.append(f'<clipPath id="bar"><rect x="24" y="54" width="{bar_w}" height="8" rx="4"/></clipPath><g clip-path="url(#bar)">')
-    for i, (name, size) in enumerate(langs):
+    bar_w = W - x0 - 32
+    out = [label(x0, 40, "Top languages · public repos"),
+           f'<clipPath id="bar"><rect x="{x0}" y="58" width="{bar_w}" height="8" rx="4"/></clipPath><g clip-path="url(#bar)">']
+    x = float(x0)
+    for i, (_, size) in enumerate(langs):
         w = bar_w * size / total
-        body.append(f'<rect x="{x:.1f}" y="54" width="{w + 0.5:.1f}" height="8" fill="{ACCENTS[i % len(ACCENTS)]}"/>')
+        out.append(f'<rect x="{x:.1f}" y="58" width="{w + 0.5:.1f}" height="8" fill="{ACCENTS[i % len(ACCENTS)]}"/>')
         x += w
-    body.append("</g>")
+    out.append("</g>")
     for i, (name, size) in enumerate(langs):
-        cx, cy = 24 + (i % 2) * 188, 94 + (i // 2) * 27
+        cx, cy = x0 + (i % 2) * 196, 98 + (i // 2) * 26
         color = ACCENTS[i % len(ACCENTS)]
-        body.append(f'<circle cx="{cx + 4}" cy="{cy - 4.5}" r="3.5" fill="{color}"/><circle cx="{cx + 4}" cy="{cy - 4.5}" r="7.5" fill="{color}" opacity="0.18"/>')
-        body.append(f'<text x="{cx + 18}" y="{cy}" font-family="{SANS}" font-size="13.5"><tspan fill="{TEXT}">{escape(name)}</tspan><tspan fill="{MUTED}" dx="6">{100 * size / total:.1f}%</tspan></text>')
-    return card(420, 200, "Top languages · public repos", "\n".join(body))
+        out.append(f'<circle cx="{cx + 4}" cy="{cy - 4.5}" r="3.5" fill="{color}"/><circle cx="{cx + 4}" cy="{cy - 4.5}" r="7.5" fill="{color}" opacity="0.18"/>'
+                   f'<text x="{cx + 18}" y="{cy}" font-family="{SANS}" font-size="13.5"><tspan fill="{TEXT}">{escape(name)}</tspan>'
+                   f'<tspan fill="{MUTED}" dx="6">{100 * size / total:.1f}%</tspan></text>')
+    return "".join(out)
 
 
-def years(s):
+def years(s, y0):
     data = list(s["years"].items())
-    width, height, left, right, top, bottom = 852, 200, 24, 24, 56, 160
+    left, right, top, bottom = 32, 32, y0 + 54, y0 + YEARS_H - 40
     peak = max(c for _, c in data) or 1
-    slot = (width - left - right) / len(data)
+    slot = (W - left - right) / len(data)
     bar = slot * 0.5
     this_year = str(dt.date.today().year)
-    body = [
-        f'<defs><linearGradient id="beam" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="{CYAN}"/><stop offset="0.55" stop-color="{BLUE}"/><stop offset="1" stop-color="{VIOLET}"/></linearGradient>'
-        f'<linearGradient id="beamNow" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="{ROSE}"/><stop offset="1" stop-color="{AMBER}"/></linearGradient></defs>',
-        f'<line x1="{left}" y1="{bottom + 0.5}" x2="{width - right}" y2="{bottom + 0.5}" stroke="{BORDER}"/>',
-    ]
+    out = [label(left, y0 + 36, "Contributions per year"),
+           f'<line x1="{left}" y1="{bottom + 0.5}" x2="{W - right}" y2="{bottom + 0.5}" stroke="{BORDER}"/>']
     for i, (year, count) in enumerate(data):
         h = max(2, (bottom - top - 18) * count / peak)
         x = left + i * slot + (slot - bar) / 2
         now = str(year) == this_year
         fill = "url(#beamNow)" if now else "url(#beam)"
-        body.append(f'<rect x="{x:.1f}" y="{bottom - h:.1f}" width="{bar:.1f}" height="{h:.1f}" rx="4" fill="{fill}" opacity="0.55" filter="url(#glow)"/>')
-        body.append(f'<rect x="{x:.1f}" y="{bottom - h:.1f}" width="{bar:.1f}" height="{h:.1f}" rx="4" fill="{fill}"/>')
-        body.append(f'<text x="{x + bar / 2:.1f}" y="{bottom - h - 8:.1f}" fill="{NOTE if now else LABEL}" font-family="{SANS}" font-size="11.5" font-weight="600" text-anchor="middle">{count:,}</text>')
-        body.append(f'<text x="{x + bar / 2:.1f}" y="{bottom + 20}" fill="{MUTED}" font-family="{MONO}" font-size="10.5" text-anchor="middle">{year}</text>')
-    return card(width, height, "Contributions per year", "\n".join(body))
+        out.append(f'<rect x="{x:.1f}" y="{bottom - h:.1f}" width="{bar:.1f}" height="{h:.1f}" rx="4" fill="{fill}" opacity="0.55" filter="url(#glow)"/>')
+        out.append(f'<rect x="{x:.1f}" y="{bottom - h:.1f}" width="{bar:.1f}" height="{h:.1f}" rx="4" fill="{fill}"/>')
+        out.append(f'<text x="{x + bar / 2:.1f}" y="{bottom - h - 8:.1f}" fill="{NOTE if now else LABEL}" font-family="{SANS}" font-size="11.5" font-weight="600" text-anchor="middle">{count:,}</text>')
+        out.append(f'<text x="{x + bar / 2:.1f}" y="{bottom + 20}" fill="{MUTED}" font-family="{MONO}" font-size="10.5" text-anchor="middle">{year}</text>')
+    return "".join(out)
+
+
+def divider(x1, y1, x2, y2, gid):
+    # A rect, not a line: objectBoundingBox gradients don't paint on zero-width shapes.
+    w, h = max(1, x2 - x1), max(1, y2 - y1)
+    return f'<rect x="{x1}" y="{y1}" width="{w}" height="{h}" fill="url(#{gid})"/>'
+
+
+def dashboard(s, login):
+    stops = "".join(f'<stop offset="{i / (len(AURA) - 1):.2f}" stop-color="{c}"/>' for i, c in enumerate(AURA))
+    fade = f'<stop offset="0" stop-color="{BORDER}" stop-opacity="0"/><stop offset="0.5" stop-color="{BORDER}"/><stop offset="1" stop-color="{BORDER}" stop-opacity="0"/>'
+    updated = dt.datetime.now(dt.timezone.utc).strftime("%b %d, %Y · %H:%M UTC")
+    title = f"{login}'s GitHub activity"
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(title)}">
+<title>{escape(title)}</title>
+<defs>
+<linearGradient id="aura" x1="0" y1="0" x2="1" y2="0">{stops}</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{GLASS}"/><stop offset="1" stop-color="{SPACE}"/></linearGradient>
+<radialGradient id="nebulaA" cx="0.92" cy="0.02" r="0.7"><stop offset="0" stop-color="{VIOLET}" stop-opacity="0.2"/><stop offset="1" stop-color="{VIOLET}" stop-opacity="0"/></radialGradient>
+<radialGradient id="nebulaB" cx="0.02" cy="0.98" r="0.65"><stop offset="0" stop-color="{CYAN}" stop-opacity="0.12"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></radialGradient>
+<radialGradient id="nebulaC" cx="0.55" cy="0.5" r="0.5"><stop offset="0" stop-color="{BLUE}" stop-opacity="0.06"/><stop offset="1" stop-color="{BLUE}" stop-opacity="0"/></radialGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{CYAN}" stop-opacity="0"/><stop offset="0.5" stop-color="{BLUE}" stop-opacity="0.7"/><stop offset="1" stop-color="{ROSE}" stop-opacity="0"/></linearGradient>
+<linearGradient id="fadeV" x1="0" y1="0" x2="0" y2="1">{fade}</linearGradient>
+<linearGradient id="fadeH" x1="0" y1="0" x2="1" y2="0">{fade}</linearGradient>
+<linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{VIOLET}" stop-opacity="0.35"/><stop offset="1" stop-color="{BLUE}" stop-opacity="0"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="{CYAN}"/><stop offset="0.55" stop-color="{BLUE}"/><stop offset="1" stop-color="{VIOLET}"/></linearGradient>
+<linearGradient id="beamNow" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="{ROSE}"/><stop offset="1" stop-color="{AMBER}"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<clipPath id="frame"><rect width="{W}" height="{H}" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="{W}" height="{H}" fill="url(#glass)"/>
+<rect width="{W}" height="{H}" fill="url(#nebulaA)"/><rect width="{W}" height="{H}" fill="url(#nebulaB)"/><rect width="{W}" height="{H}" fill="url(#nebulaC)"/>
+{stars(W, H, seed=login)}
+<rect x="60" y="0" width="{W - 120}" height="1.5" fill="url(#rim)"/>
+</g>
+<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="none" stroke="{BORDER}"/>
+{divider(W // 2, 28, W // 2, ROW - 16, "fadeV")}
+{divider(32, ROW, W - 32, ROW, "fadeH")}
+{overview(s, 32)}
+{languages(s, W // 2 + 28)}
+{years(s, ROW)}
+{divider(32, H - FOOT, W - 32, H - FOOT, "fadeH")}
+<text x="32" y="{H - 15}" fill="{MUTED}" font-family="{MONO}" font-size="10.5" letter-spacing="1">AUTO-UPDATED · {escape(updated.upper())}</text>
+<text x="{W - 32}" y="{H - 15}" fill="{MUTED}" font-family="{MONO}" font-size="10.5" letter-spacing="1" text-anchor="end">GITHUB.COM/{escape(login.upper())}</text>
+</svg>
+"""
 
 
 def main():
     login, out = sys.argv[1], sys.argv[2]
     s = fetch(login)
     os.makedirs(out, exist_ok=True)
-    for name, svg in (("overview", overview(s)), ("languages", languages(s)), ("years", years(s))):
-        with open(os.path.join(out, f"{name}.svg"), "w") as f:
-            f.write(svg)
-    print(f"wrote cards: {sum(s['years'].values()):,} contributions, {len(s['langs'])} languages")
+    with open(os.path.join(out, "dashboard.svg"), "w") as f:
+        f.write(dashboard(s, login))
+    print(f"wrote dashboard: {sum(s['years'].values()):,} contributions, {len(s['langs'])} languages")
 
 
 if __name__ == "__main__":

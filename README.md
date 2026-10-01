@@ -85,11 +85,7 @@
 </tr>
 </table>
 
-<p>
-<img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/overview.svg" width="49%" alt="GitHub stats: total contributions, last 12 months, pull requests and streaks" />
-<img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/languages.svg" width="49%" alt="Top languages across public repos" />
-<img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/years.svg" width="98.6%" alt="Contributions per year since 2015" />
-</p>
+<img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/dashboard.svg" width="100%" alt="GitHub activity: total contributions, pull requests, streaks, top languages and contributions per year. Auto-updated every 4 hours." />
 
 **How I run projects:** everything is tracked in [Linear](https://linear.app) · every PR gets an AI review (Codex) against that repo's own rules · default branches only change through PRs.  
 <sub>More projects, write-ups and experience on <a href="https://naxecode.github.io">naxecode.github.io</a>.</sub>

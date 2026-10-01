@@ -1,10 +1,10 @@
-# Renders the profile stat cards and commits them to the `stats` branch,
+# Renders the profile stats dashboard and commits them to the `stats` branch,
 # so main's history stays clean and no third-party card service is needed.
 name: Profile stats
 
 on:
   schedule:
-    - cron: "17 5 * * *"
+    - cron: "17 */4 * * *" # every 4 hours
   workflow_dispatch:
   push:
     branches: [main]
@@ -39,6 +39,7 @@ jobs:
           else
             git worktree add --orphan -b stats "$out"
           fi
+          rm -f "$out"/*.svg
           cp "$RUNNER_TEMP"/cards/*.svg "$out/"
           cd "$out"
           git add -A
@@ -46,5 +47,5 @@ jobs:
             echo "Cards unchanged."
             exit 0
           fi
-          git commit -m "chore: refresh profile stats"
+          git commit -m "chore: refresh profile stats dashboard"
           git push origin stats
