@@ -19,20 +19,23 @@
 <a href="https://github.com/NaxeCode/Cosmic-Digest"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Digest/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/Cosmic-Digest"><b>Cosmic Digest</b></a><br>
 <sub>SYSTEMS · .NET</sub>
+<img src=".github/brand/status/Cosmic-Digest.svg" height="18" alt="status" />
 <br clear="left">
 <sub>RSS → email brief with circuit breaking, an encrypted outbox and idempotent delivery. Runs daily.</sub>
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/NaxeCode/pulse"><img src="https://raw.githubusercontent.com/NaxeCode/pulse/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/pulse"><b>Ground</b></a><br>
-<sub>SYSTEMS · WIP</sub>
+<sub>SYSTEMS · ASP.NET CORE</sub>
+<img src=".github/brand/status/pulse.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Financial-analysis platform: Next.js, ASP.NET Core API, Python workers, Redis, TimescaleDB.</sub>
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/NaxeCode/Photon-Trail"><img src="https://raw.githubusercontent.com/NaxeCode/Photon-Trail/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/Photon-Trail"><b>Photon Trail</b></a><br>
-<sub>SYSTEMS · WIP</sub>
+<sub>SYSTEMS · NEXT.JS</sub>
+<img src=".github/brand/status/Photon-Trail.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Plaid cursor sync into Postgres with AI categorization that returns confidence scores.</sub>
 </td>
@@ -41,7 +44,8 @@
 <td width="33%" valign="top">
 <a href="https://github.com/NaxeCode/Cosmic-Watchlist"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Watchlist/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/Cosmic-Watchlist"><b>Cosmic Watchlist</b></a><br>
-<sub>SYSTEMS · LIVE</sub>
+<sub>SYSTEMS · NEXT.JS</sub>
+<img src=".github/brand/status/Cosmic-Watchlist.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Server-first watchlist: auth, fast CRUD, shareable filters, stats. <a href="https://stargazers-cosmic-watchlist.vercel.app/">Demo</a></sub>
 </td>
@@ -49,6 +53,7 @@
 <a href="https://github.com/NaxeCode/activitymux"><img src="https://raw.githubusercontent.com/NaxeCode/activitymux/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/activitymux"><b>ActivityMux</b></a><br>
 <sub>TOOLS · RUST/TAURI</sub>
+<img src=".github/brand/status/activitymux.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Discord Rich Presence router for Windows and Linux. <a href="https://github.com/NaxeCode/activitymux/releases/latest">Releases</a></sub>
 </td>
@@ -56,6 +61,7 @@
 <a href="https://github.com/NaxeCode/jp-assist"><img src="https://raw.githubusercontent.com/NaxeCode/jp-assist/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/jp-assist"><b>jp-assist</b></a><br>
 <sub>TOOLS · LOCAL AI</sub>
+<img src=".github/brand/status/jp-assist.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Live Japanese translation for voice calls: whisper.cpp + llama.cpp on AMD ROCm.</sub>
 </td>
@@ -65,6 +71,7 @@
 <a href="https://github.com/NaxeCode/caelestia-shell-naxecode"><img src="https://raw.githubusercontent.com/NaxeCode/caelestia-shell-naxecode/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/caelestia-shell-naxecode"><b>caelestia-shell</b></a><br>
 <sub>TOOLS · WAYLAND</sub>
+<img src=".github/brand/status/caelestia-shell-naxecode.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Shell fork with an OLED blackout mode, packaged as an Arch PKGBUILD.</sub>
 </td>
@@ -72,6 +79,7 @@
 <a href="https://github.com/NaxeCode/Minnen"><img src="https://raw.githubusercontent.com/NaxeCode/Minnen/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/Minnen"><b>Minnen</b></a><br>
 <sub>GAMES · HAXE</sub>
+<img src=".github/brand/status/Minnen.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Psychological game about night terrors on a curved, rolling-log world.</sub>
 </td>
@@ -79,6 +87,7 @@
 <a href="https://github.com/NaxeCode/Ahmar"><img src="https://raw.githubusercontent.com/NaxeCode/Ahmar/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
 <a href="https://github.com/NaxeCode/Ahmar"><b>Ahmar</b></a><br>
 <sub>GAMES · HAXE</sub>
+<img src=".github/brand/status/Ahmar.svg" height="18" alt="status" />
 <br clear="left">
 <sub>Top-down action combat in the spirit of Hyper Light Drifter.</sub>
 </td>
@@ -87,5 +96,5 @@
 
 <img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/dashboard.svg" width="100%" alt="GitHub activity: total contributions, pull requests, streaks, top languages and contributions per year. Auto-updated every 4 hours." />
 
-**How I run projects:** everything is tracked in [Linear](https://linear.app) · every PR gets an AI review (Codex) against that repo's own rules · default branches only change through PRs.  
+**How I run projects:** everything is tracked in [Linear](https://linear.app) · every PR gets a Codex review before merge · default branches only change through PRs.  
 <sub>More projects, write-ups and experience on <a href="https://naxecode.github.io">naxecode.github.io</a>.</sub>

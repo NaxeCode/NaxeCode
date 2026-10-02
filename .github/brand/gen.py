@@ -171,7 +171,7 @@ def badge(label, kind="tech"):
 
 RUN_BADGES = [  # the "How this project is run" row (CAD-131): file, label, link
     ("run-linear", "tracked in Linear", "https://linear.app"),
-    ("run-codex", "AI-reviewed · Codex", "AGENTS.md"),
+    ("run-codex", "AI-reviewed · Codex", "#how-this-project-is-run"),
     ("run-main", "PR-only main", "#how-this-project-is-run"),
 ]
 
@@ -207,6 +207,10 @@ def badges(p, out):
 ## How this project is run
 
 {" ".join(run)}
+
+- **Planning:** tracked in Linear as initiatives → projects → milestones → issues; branch names and PR titles carry the issue ID.
+- **Review:** every pull request gets a Codex review before merge.
+- **Guardrails:** the default branch changes only through pull requests (GitHub ruleset).
 """)
 
 
