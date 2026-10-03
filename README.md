@@ -3,7 +3,7 @@
 ### Aladdin Ali · Naxe
 **Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Making games since 2015.  
 <sub>Open to backend & platform roles · Florida, open to U.S. relocation</sub>  
-[![Website](https://img.shields.io/badge/naxecode.github.io-171b28?style=flat-square&logo=github&logoColor=22baf3)](https://naxecode.github.io/)
+[![Website](https://img.shields.io/badge/naxe.dev-171b28?style=flat-square&logo=github&logoColor=22baf3)](https://naxe.dev/)
 [![Email](https://img.shields.io/badge/naxecode@proton.me-171b28?style=flat-square&logo=protonmail&logoColor=cb69f3)](mailto:naxecode@proton.me)
 [![LinkedIn](https://img.shields.io/badge/in%2Faladdin--ali01-171b28?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzdjODNmZicgZD0nTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDMtMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ1djYuMjl6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzJ2MjAuNTZDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1YzEgMCAxLjc4LS43NyAxLjc4LTEuNzJWMS43MkMyNCAuNzcgMjMuMjIgMCAyMi4yMiAweicvPjwvc3ZnPg==)](https://www.linkedin.com/in/aladdin-ali01/)
 [![X](https://img.shields.io/badge/@NaxeDev-171b28?style=flat-square&logo=x&logoColor=ff6592)](https://x.com/NaxeDev)
@@ -97,4 +97,4 @@
 <img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/dashboard.svg" width="100%" alt="GitHub activity: total contributions, pull requests, streaks, top languages and contributions per year. Auto-updated every 4 hours." />
 
 **How I run projects:** everything is tracked in [Linear](https://linear.app) · every PR gets a Codex review before merge · default branches only change through PRs.  
-<sub>More projects, write-ups and experience on <a href="https://naxecode.github.io">naxecode.github.io</a>.</sub>
+<sub>More projects, write-ups and experience on <a href="https://naxe.dev">naxe.dev</a>.</sub>
