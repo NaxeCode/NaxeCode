@@ -1,4 +1,4 @@
-<img src=".github/brand/logo.svg" width="96" align="left" alt="Naxe logo" />
+<img src=".github/brand/logo.svg" width="96" align="left" hspace="16" alt="Naxe logo" />
 
 ### Aladdin Ali · Naxe
 **Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail.  
