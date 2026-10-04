@@ -5,6 +5,7 @@
 <sub>Open to backend & platform roles · Florida, open to U.S. relocation</sub>  
 <sub><a href="https://naxe.dev">naxe.dev</a> · <a href="mailto:naxecode@proton.me">naxecode@proton.me</a> · <a href="https://www.linkedin.com/in/aladdin-ali01/">LinkedIn</a> · <a href="https://x.com/NaxeDev">X</a></sub>
 <br clear="left">
+<br>
 
 **Now:** Ground, a financial-analysis platform, and an agent-drivable job pipeline (MCP server + fit scoring).
 
@@ -49,10 +50,17 @@
 </tr>
 </table>
 
-<sub><b>Also</b> · <a href="https://github.com/NaxeCode/activitymux">ActivityMux</a> (Discord presence router, Rust) · <a href="https://github.com/NaxeCode/jp-assist">jp-assist</a> (live JP translation, local AI) · <a href="https://github.com/NaxeCode/caelestia-shell-naxecode">caelestia-shell</a> (Wayland) · games since 2015: <a href="https://github.com/NaxeCode/Minnen">Minnen</a>, <a href="https://github.com/NaxeCode/Ahmar">Ahmar</a></sub>
+<sub><b>Tools</b> · <a href="https://github.com/NaxeCode/activitymux">ActivityMux</a> · <a href="https://github.com/NaxeCode/jp-assist">jp-assist</a> · <a href="https://github.com/NaxeCode/caelestia-shell-naxecode">caelestia-shell</a></sub>  
+<sub><b>Games</b> · <a href="https://github.com/NaxeCode/Minnen">Minnen</a> · <a href="https://github.com/NaxeCode/Ahmar">Ahmar</a> · making games since 2015</sub>
 
 <br>
 
+<details>
+<summary><sub>GitHub activity · contributions, PRs, streaks, languages · auto-updated every 4 hours</sub></summary>
+<br>
 <img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/dashboard.svg" width="100%" alt="GitHub activity: total contributions, pull requests, streaks, top languages and contributions per year. Auto-updated every 4 hours." />
+</details>
 
-<sub>Tracked in <a href="https://linear.app">Linear</a> · every PR gets a Codex review before merge · more projects, write-ups and experience at <a href="https://naxe.dev">naxe.dev</a></sub>
+<br>
+
+<sub>Tracked in <a href="https://linear.app">Linear</a> · every PR gets a Codex review before merge · more at <a href="https://naxe.dev">naxe.dev</a></sub>
