@@ -1,58 +1,19 @@
-<img src=".github/brand/logo.svg" width="96" align="left" alt="Naxe logo" />
+# Aladdin Ali
 
-### Aladdin Ali · Naxe
-**Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail.  
-<sub>Open to backend & platform roles · Florida, open to U.S. relocation</sub>  
-<sub><a href="https://naxe.dev">naxe.dev</a> · <a href="mailto:naxecode@proton.me">naxecode@proton.me</a> · <a href="https://www.linkedin.com/in/aladdin-ali01/">LinkedIn</a> · <a href="https://x.com/NaxeDev">X</a></sub>
-<br clear="left">
+Backend & platform engineer. I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Open to backend and platform roles · Florida, open to U.S. relocation.
 
-**Now:** Ground, a financial-analysis platform, and an agent-drivable job pipeline (MCP server + fit scoring).
+**Now:** [Ground](https://github.com/NaxeCode/pulse), a financial-analysis platform (ASP.NET Core, Python workers, Redis, TimescaleDB), and an MCP server that scores job fit.
 
-<br>
+**Things I've built**
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/Cosmic-Digest"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Digest/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
-<a href="https://github.com/NaxeCode/Cosmic-Digest"><b>Cosmic Digest</b></a><br>
-<sub>SYSTEMS · .NET</sub>
-<img src=".github/brand/status/Cosmic-Digest.svg" height="18" alt="status" />
-<br clear="left">
-<sub>RSS → email brief with circuit breaking, an encrypted outbox and idempotent delivery. Runs daily.</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/Cosmic-Watchlist"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Watchlist/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
-<a href="https://github.com/NaxeCode/Cosmic-Watchlist"><b>Cosmic Watchlist</b></a><br>
-<sub>SYSTEMS · NEXT.JS</sub>
-<img src=".github/brand/status/Cosmic-Watchlist.svg" height="18" alt="status" />
-<br clear="left">
-<sub>Server-first watchlist: auth, fast CRUD, shareable filters, stats. <a href="https://stargazers-cosmic-watchlist.vercel.app/">Demo</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/pulse"><img src="https://raw.githubusercontent.com/NaxeCode/pulse/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
-<a href="https://github.com/NaxeCode/pulse"><b>Ground</b></a><br>
-<sub>SYSTEMS · ASP.NET CORE</sub>
-<img src=".github/brand/status/pulse.svg" height="18" alt="status" />
-<br clear="left">
-<sub>Financial-analysis platform: Next.js, ASP.NET Core API, Python workers, Redis, TimescaleDB.</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/Photon-Trail"><img src="https://raw.githubusercontent.com/NaxeCode/Photon-Trail/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
-<a href="https://github.com/NaxeCode/Photon-Trail"><b>Photon Trail</b></a><br>
-<sub>SYSTEMS · NEXT.JS</sub>
-<img src=".github/brand/status/Photon-Trail.svg" height="18" alt="status" />
-<br clear="left">
-<sub>Plaid cursor sync into Postgres with AI categorization that returns confidence scores.</sub>
-</td>
-</tr>
-</table>
+- [Cosmic Digest](https://github.com/NaxeCode/Cosmic-Digest) — RSS → email brief in .NET with circuit breaking, an encrypted outbox and idempotent delivery. 125 tests. Runs daily.
+- [Cosmic Watchlist](https://github.com/NaxeCode/Cosmic-Watchlist) — server-first watchlist app: auth, fast CRUD, shareable filters. [Live demo](https://stargazers-cosmic-watchlist.vercel.app/).
+- [Photon Trail](https://github.com/NaxeCode/Photon-Trail) — Plaid cursor sync into Postgres, with AI categorization that returns confidence scores.
+- [ActivityMux](https://github.com/NaxeCode/activitymux) — Discord Rich Presence router for Windows and Linux, in Rust and Tauri. [Releases](https://github.com/NaxeCode/activitymux/releases/latest).
+- [jp-assist](https://github.com/NaxeCode/jp-assist) — live Japanese translation for voice calls, running whisper.cpp and llama.cpp locally on AMD ROCm.
 
-<sub><b>Also</b> · <a href="https://github.com/NaxeCode/activitymux">ActivityMux</a> (Discord presence router, Rust) · <a href="https://github.com/NaxeCode/jp-assist">jp-assist</a> (live JP translation, local AI) · <a href="https://github.com/NaxeCode/caelestia-shell-naxecode">caelestia-shell</a> (Wayland) · games since 2015: <a href="https://github.com/NaxeCode/Minnen">Minnen</a>, <a href="https://github.com/NaxeCode/Ahmar">Ahmar</a></sub>
+Making games since 2015: [Minnen](https://github.com/NaxeCode/Minnen), [Ahmar](https://github.com/NaxeCode/Ahmar).
 
-<br>
+Every project is tracked in Linear and every PR gets a Codex review before merge. More, including write-ups, at [naxe.dev](https://naxe.dev).
 
-<img src="https://raw.githubusercontent.com/NaxeCode/NaxeCode/stats/dashboard.svg" width="100%" alt="GitHub activity: total contributions, pull requests, streaks, top languages and contributions per year. Auto-updated every 4 hours." />
-
-<sub>Tracked in <a href="https://linear.app">Linear</a> · every PR gets a Codex review before merge · more projects, write-ups and experience at <a href="https://naxe.dev">naxe.dev</a></sub>
+[naxe.dev](https://naxe.dev) · [LinkedIn](https://www.linkedin.com/in/aladdin-ali01/) · [X](https://x.com/NaxeDev) · naxecode@proton.me
