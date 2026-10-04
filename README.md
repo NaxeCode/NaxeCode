@@ -1,9 +1,9 @@
-<img src=".github/brand/logo.svg" width="120" align="left" hspace="16" alt="Naxe logo" />
+<img src=".github/brand/logo.svg" width="120" align="left" alt="Naxe logo" />
 
-### Aladdin Ali · Naxe
-**Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail.  
-<small>Open to backend & platform roles · Florida, open to U.S. relocation</small>  
-<small><a href="https://naxe.dev">naxe.dev</a> · <a href="mailto:naxecode@proton.me">naxecode@proton.me</a> · <a href="https://www.linkedin.com/in/aladdin-ali01/">LinkedIn</a> · <a href="https://x.com/NaxeDev">X</a></small>
+### &nbsp;&nbsp;&nbsp;Aladdin Ali · Naxe
+&nbsp;&nbsp;&nbsp;&nbsp;**Backend & platform engineer.** I build systems that stay correct when inputs are messy and dependencies fail.  
+&nbsp;&nbsp;&nbsp;&nbsp;<small>Open to backend & platform roles · Florida, open to U.S. relocation</small>  
+&nbsp;&nbsp;&nbsp;&nbsp;<small><a href="https://naxe.dev">naxe.dev</a> · <a href="mailto:naxecode@proton.me">naxecode@proton.me</a> · <a href="https://www.linkedin.com/in/aladdin-ali01/">LinkedIn</a> · <a href="https://x.com/NaxeDev">X</a></small>
 <br clear="left">
 <br>
 
@@ -14,36 +14,36 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/Cosmic-Digest"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Digest/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" hspace="8" alt="" /></a>
-<a href="https://github.com/NaxeCode/Cosmic-Digest"><b>Cosmic Digest</b></a><br>
-<small>SYSTEMS · .NET</small>&nbsp;&nbsp;
-<img src=".github/brand/status/Cosmic-Digest.svg" height="18" alt="status" />
+<a href="https://github.com/NaxeCode/Cosmic-Digest"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Digest/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
+&nbsp;&nbsp;<a href="https://github.com/NaxeCode/Cosmic-Digest"><b>Cosmic Digest</b></a><br>
+&nbsp;&nbsp;<small>SYSTEMS · .NET</small>&nbsp;&nbsp;
+<img src=".github/brand/status/Cosmic-Digest.svg" height="18" align="absmiddle" alt="status" />
 <br clear="left">
 <small>RSS → email brief with circuit breaking, an encrypted outbox and idempotent delivery. Runs daily.</small>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/Cosmic-Watchlist"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Watchlist/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" hspace="8" alt="" /></a>
-<a href="https://github.com/NaxeCode/Cosmic-Watchlist"><b>Cosmic Watchlist</b></a><br>
-<small>SYSTEMS · NEXT.JS</small>&nbsp;&nbsp;
-<img src=".github/brand/status/Cosmic-Watchlist.svg" height="18" alt="status" />
+<a href="https://github.com/NaxeCode/Cosmic-Watchlist"><img src="https://raw.githubusercontent.com/NaxeCode/Cosmic-Watchlist/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
+&nbsp;&nbsp;<a href="https://github.com/NaxeCode/Cosmic-Watchlist"><b>Cosmic Watchlist</b></a><br>
+&nbsp;&nbsp;<small>SYSTEMS · NEXT.JS</small>&nbsp;&nbsp;
+<img src=".github/brand/status/Cosmic-Watchlist.svg" height="18" align="absmiddle" alt="status" />
 <br clear="left">
 <small>Server-first watchlist: auth, fast CRUD, shareable filters, stats. <a href="https://stargazers-cosmic-watchlist.vercel.app/">Demo</a></small>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/pulse"><img src="https://raw.githubusercontent.com/NaxeCode/pulse/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" hspace="8" alt="" /></a>
-<a href="https://github.com/NaxeCode/pulse"><b>Ground</b></a><br>
-<small>SYSTEMS · ASP.NET CORE</small>&nbsp;&nbsp;
-<img src=".github/brand/status/pulse.svg" height="18" alt="status" />
+<a href="https://github.com/NaxeCode/pulse"><img src="https://raw.githubusercontent.com/NaxeCode/pulse/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
+&nbsp;&nbsp;<a href="https://github.com/NaxeCode/pulse"><b>Ground</b></a><br>
+&nbsp;&nbsp;<small>SYSTEMS · ASP.NET CORE</small>&nbsp;&nbsp;
+<img src=".github/brand/status/pulse.svg" height="18" align="absmiddle" alt="status" />
 <br clear="left">
 <small>Financial-analysis platform: Next.js, ASP.NET Core API, Python workers, Redis, TimescaleDB.</small>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/NaxeCode/Photon-Trail"><img src="https://raw.githubusercontent.com/NaxeCode/Photon-Trail/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" hspace="8" alt="" /></a>
-<a href="https://github.com/NaxeCode/Photon-Trail"><b>Photon Trail</b></a><br>
-<small>SYSTEMS · NEXT.JS</small>&nbsp;&nbsp;
-<img src=".github/brand/status/Photon-Trail.svg" height="18" alt="status" />
+<a href="https://github.com/NaxeCode/Photon-Trail"><img src="https://raw.githubusercontent.com/NaxeCode/Photon-Trail/HEAD/.github/brand/logo.svg" width="40" height="40" align="left" alt="" /></a>
+&nbsp;&nbsp;<a href="https://github.com/NaxeCode/Photon-Trail"><b>Photon Trail</b></a><br>
+&nbsp;&nbsp;<small>SYSTEMS · NEXT.JS</small>&nbsp;&nbsp;
+<img src=".github/brand/status/Photon-Trail.svg" height="18" align="absmiddle" alt="status" />
 <br clear="left">
 <small>Plaid cursor sync into Postgres with AI categorization that returns confidence scores.</small>
 </td>
