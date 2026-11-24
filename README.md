@@ -1,13 +1,20 @@
 # Aladdin Ali
 
-I got my start debugging game graphics. Today I build C#/.NET services and applied AI tools. When a result looks wrong, I want to trace it back to its input and give another engineer a way to reproduce it.
+I started in game graphics, where a single bad frame could take longer to explain than it took to render. I bring that debugging habit to C# services and applied AI. When a briefing makes a claim or a bank feed changes yesterday's transaction, I want to recover the inputs and replay the decision.
 
-## Selected work
+[![Four working projects: Frame Triage, Photon Trail, Cosmic Digest and LMMS-Nebula](assets/engineering-work.webp)](https://naxe-portfolio-review.vercel.app/)
 
-**Cosmic Digest** turns RSS feeds into an email brief. If the model cites an article it never received, the C# service rejects the response. When a send is uncertain, it reuses the original email and delivery key. Automatic replay stops 24 hours after preparation. [Project](https://github.com/NaxeCode/Cosmic-Digest) · [Source validation tests](https://github.com/NaxeCode/Cosmic-Digest/blob/1a9afe2d27220256699ecd9c348109b49c1f77de/tests/CosmicDigest.Tests/NewsAiTests.cs) · [Delivery replay test](https://github.com/NaxeCode/Cosmic-Digest/blob/1a9afe2d27220256699ecd9c348109b49c1f77de/tests/CosmicDigest.Tests/DigestIdempotencyTests.cs#L38-L92)
+**[Explore the interactive portfolio](https://naxe-portfolio-review.vercel.app/)** · [Engineering background](https://naxe-portfolio-review.vercel.app/about/) · [Email](mailto:aladdin@naxe.dev)
 
-**Kruu** helps Miami crew supervisors schedule outdoor work around the heat. I integrated Gemma’s work order extraction with a scheduler that preserves appointments and breaks. In our team’s demo, one fictional order moved from 150 outdoor minutes to zero in the three hottest forecast hours. In a separate local check, a fixed schedule stayed at 180 minutes. [Watch Faye’s demo (44 seconds)](https://github.com/NaxeCode/heatshift/releases/download/hackathon-demo-2026-10-10/kruu-faye-final-portraits.mp4) · [See the two schedules](https://github.com/NaxeCode/heatshift/blob/118a71a4138fea6004b973f61378385584a06c23/docs/VERIFICATION.md) · [Meet the team](https://github.com/NaxeCode/heatshift#the-crew-behind-kruu)
+### Selected work
 
-**Minnen** is my Haxe game about night terrors. The player moves on a flat map. The camera projects it onto a cylinder so the ground appears to roll away. [Game](https://github.com/NaxeCode/Minnen) · [Camera math](https://github.com/NaxeCode/Minnen/blob/34f8c86dc4ec04ed8d2ba5d721a35e7ba97c77c3/source/logworld/LogCamera.hx)
+| Project | What you can try |
+| --- | --- |
+| **[Frame Triage](https://naxe-portfolio-review.vercel.app/labs/frame-triage/)** · Graphics and ML | Drag between two renders to find a missing component. Compare a trained detector with an aligned pixel baseline, then open a real false alarm. The workbench also runs on your own screenshot pairs. [Renderer, model and held-out decisions](https://github.com/NaxeCode/Minnen/tree/3d9c78b818cc8f43c3261f3969b4899e72db172a/tools/frame-triage) |
+| **[Photon Trail](https://naxe-portfolio-review.vercel.app/labs/photon-trail/)** · Financial systems | Two charges have the same amount. Read the receipt, select the right entry, interrupt a bank import and replay it. The connected sync has a PostgreSQL integration test for the checkpoint and the operator's correction. [Implementation](https://github.com/NaxeCode/Photon-Trail/pull/9/files) |
+| **[Cosmic Digest](https://naxe-portfolio-review.vercel.app/labs/cosmic-digest/)** · .NET and applied AI | Follow a quotation back to the selected report. Inspect a false conclusion that passes the quote check, then follow the C# service through a rejected response and deterministic fallback. [Evidence guard](https://github.com/NaxeCode/Cosmic-Digest/pull/15/files) · [Ambiguous email delivery test](https://github.com/NaxeCode/Cosmic-Digest/blob/1a9afe2d27220256699ecd9c348109b49c1f77de/tests/CosmicDigest.Tests/DigestIdempotencyTests.cs) |
+| **[LMMS-Nebula](https://naxe-portfolio-review.vercel.app/labs/lmms-session/)** · Audio tools | Play a four-part game-music loop, edit a note and export a native project. The fork extends the open-source LMMS workstation with a local control socket and Python/MCP adapter. [Editor and score](https://github.com/NaxeCode/lmms-nebula/pull/1/files) · [Upstream LMMS](https://github.com/LMMS/lmms) |
 
-I’m based in Florida and open to relocating within the U.S. for applied AI and senior .NET roles. [Portfolio](https://naxe.dev)
+For released desktop software, see [ActivityMux](https://github.com/NaxeCode/activitymux/releases). For a team project, see [Kruu’s scheduling demo and crew credits](https://github.com/NaxeCode/heatshift#the-crew-behind-kruu).
+
+Based in Florida and open to U.S. relocation for applied AI, senior .NET and hybrid engineering roles.
