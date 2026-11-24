@@ -4,7 +4,7 @@ I started in game graphics, where a single bad frame could take longer to explai
 
 [![Four working projects: Frame Triage, Photon Trail, Cosmic Digest and LMMS-Nebula](assets/engineering-work.webp)](https://naxe-portfolio-review.vercel.app/)
 
-**[Explore the interactive portfolio](https://naxe-portfolio-review.vercel.app/)** · [Engineering background](https://naxe-portfolio-review.vercel.app/about/) · [Email](mailto:aladdin@naxe.dev)
+**[Explore the interactive portfolio](https://naxe-portfolio-review.vercel.app/)** · [Watch the 40-second tour](https://naxe-portfolio-review.vercel.app/projects/#tour) · [Engineering background](https://naxe-portfolio-review.vercel.app/about/) · [Email](mailto:aladdin@naxe.dev)
 
 ### Selected work
 
