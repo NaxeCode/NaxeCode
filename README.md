@@ -1,19 +1,13 @@
 # Aladdin Ali
 
-Backend & platform engineer. I build systems that stay correct when inputs are messy and dependencies fail: APIs, ingestion pipelines, fintech integrations. Open to backend and platform roles · Florida, open to U.S. relocation.
+I got my start debugging game graphics. Today I build C#/.NET services and applied AI tools. When a result looks wrong, I want to trace it back to its input and give another engineer a way to reproduce it.
 
-**Now:** [Ground](https://github.com/NaxeCode/pulse), a financial-analysis platform (ASP.NET Core, Python workers, Redis, TimescaleDB), and an MCP server that scores job fit.
+## Selected work
 
-**Things I've built**
+**Cosmic Digest** turns RSS feeds into an email brief. If the model cites an article it never received, the C# service rejects the response. When a send is uncertain, it reuses the original email and delivery key. Automatic replay stops 24 hours after preparation. [Project](https://github.com/NaxeCode/Cosmic-Digest) · [Source validation tests](https://github.com/NaxeCode/Cosmic-Digest/blob/1a9afe2d27220256699ecd9c348109b49c1f77de/tests/CosmicDigest.Tests/NewsAiTests.cs) · [Delivery replay test](https://github.com/NaxeCode/Cosmic-Digest/blob/1a9afe2d27220256699ecd9c348109b49c1f77de/tests/CosmicDigest.Tests/DigestIdempotencyTests.cs#L38-L92)
 
-- [Cosmic Digest](https://github.com/NaxeCode/Cosmic-Digest) — RSS → email brief in .NET with circuit breaking, an encrypted outbox and idempotent delivery. 125 tests. Runs daily.
-- [Cosmic Watchlist](https://github.com/NaxeCode/Cosmic-Watchlist) — server-first watchlist app: auth, fast CRUD, shareable filters. [Live demo](https://stargazers-cosmic-watchlist.vercel.app/).
-- [Photon Trail](https://github.com/NaxeCode/Photon-Trail) — Plaid cursor sync into Postgres, with AI categorization that returns confidence scores.
-- [ActivityMux](https://github.com/NaxeCode/activitymux) — Discord Rich Presence router for Windows and Linux, in Rust and Tauri. [Releases](https://github.com/NaxeCode/activitymux/releases/latest).
-- [jp-assist](https://github.com/NaxeCode/jp-assist) — live Japanese translation for voice calls, running whisper.cpp and llama.cpp locally on AMD ROCm.
+**Kruu** helps Miami crew supervisors schedule outdoor work around the heat. I integrated Gemma’s work order extraction with a scheduler that preserves appointments and breaks. In our team’s demo, one fictional order moved from 150 outdoor minutes to zero in the three hottest forecast hours. In a separate local check, a fixed schedule stayed at 180 minutes. [Watch Faye’s demo (44 seconds)](https://github.com/NaxeCode/heatshift/releases/download/hackathon-demo-2026-10-10/kruu-faye-final-portraits.mp4) · [See the two schedules](https://github.com/NaxeCode/heatshift/blob/118a71a4138fea6004b973f61378385584a06c23/docs/VERIFICATION.md) · [Meet the team](https://github.com/NaxeCode/heatshift#the-crew-behind-kruu)
 
-Making games since 2015: [Minnen](https://github.com/NaxeCode/Minnen), [Ahmar](https://github.com/NaxeCode/Ahmar).
+**Minnen** is my Haxe game about night terrors. The player moves on a flat map. The camera projects it onto a cylinder so the ground appears to roll away. [Game](https://github.com/NaxeCode/Minnen) · [Camera math](https://github.com/NaxeCode/Minnen/blob/34f8c86dc4ec04ed8d2ba5d721a35e7ba97c77c3/source/logworld/LogCamera.hx)
 
-Every project is tracked in Linear and every PR gets a Codex review before merge. More, including write-ups, at [naxe.dev](https://naxe.dev).
-
-[naxe.dev](https://naxe.dev) · [LinkedIn](https://www.linkedin.com/in/aladdin-ali01/) · [X](https://x.com/NaxeDev) · naxecode@proton.me
+I’m based in Florida and open to relocating within the U.S. for applied AI and senior .NET roles. [Portfolio](https://naxe.dev)
